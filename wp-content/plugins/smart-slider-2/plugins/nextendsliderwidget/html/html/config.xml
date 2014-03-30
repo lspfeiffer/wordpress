@@ -1,0 +1,5 @@
+<root>
+    <params name="widgetshtml" label="" hidetitle="1">
+        <param label="Custom HTML with full version" type="trial" name="trial" src="http://www.nextendweb.com/demo/smartslider2/trial/html.png" />
+    </params>
+</root>

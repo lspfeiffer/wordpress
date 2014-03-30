@@ -1,0 +1,5 @@
+<root>
+    <params name="quickimage" label="Quick image selector" type="default1col">
+        <param name="images" label="Images" type="imageselector" default="" />
+    </params>
+</root>

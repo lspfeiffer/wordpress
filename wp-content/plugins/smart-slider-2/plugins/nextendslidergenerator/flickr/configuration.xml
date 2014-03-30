@@ -1,0 +1,8 @@
+<root>
+    <params name="basic" label="Flickr generator">
+        <param name="url" type="button" label="Check tutorial" url="http://www.nextendweb.com/wiki/smart-slider-documentation/flickr-generator/" target="_blank" />
+        <param name="apikey" type="text" label="Api key" default="" />
+        <param name="apisecret" type="text" label="Api secret" default="" />
+        <param name="token" type="flickrtoken" label="Token" default="" />
+    </params>
+</root>

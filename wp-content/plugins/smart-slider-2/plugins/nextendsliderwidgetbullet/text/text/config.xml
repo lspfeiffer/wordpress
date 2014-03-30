@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root translate="smartslider">
+    <params name="bullettext" label="text bullet settings" hidetitle="1">
+        <param type="mixed" name="bulletposition" label="Position" default="left|*|0|*|%|*|bottom|*|5|*|%">
+            <param type="list" label="Horizontal" mixedstyle="clear: both;" style="width:70px;" translateable="1">
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+            </param>
+            <param type="text" label="position" style="width:50px;"/>
+            <param type="switcher" label="unit">
+                <unit value="px">px</unit>
+                <unit value="%">percent</unit>
+            </param>
+
+            <param type="list" label="Vertical" mixedstyle="clear: both;" style="width:70px;" translateable="1">
+                <option value="top">Top</option>
+                <option value="bottom">Bottom</option>
+            </param>
+            <param type="text" label="position" style="width:50px;"/>
+            <param type="switcher" label="unit">
+                <unit value="px">px</unit>
+                <unit value="%">percent</unit>
+            </param>
+        </param>
+        <param type="text" name="bulletwidth" label="Width" default="100%" />
+        <param name="bulletorientation" type="radio" label="Orientation" default="horizontal">
+            <option value="horizontal">Horizontal</option>
+            <option value="vertical">Vertical</option>
+        </param>
+        <param name="bulletalign" type="radio" label="Align" default="center">
+            <option value="left">Left</option>
+            <option value="center">Center</option>
+            <option value="right">Right</option>
+        </param>
+        <param type="cssimagelist" name="bullet" label="Bullet" folder="bullets" prefix="nextend-bullet nextend-bullet-text nextend-bullet-text-" default="title.png">
+            <![CDATA[<div class="nextend-bullet-container {class}"><div class="{class}"><span>First Slide</span></div><div class="{class} active"><span>Second Slide</span></div><div class="{class}"><span>Third Slide</span></div></div>]]>
+        </param>         
+        <param name="bulletbackground" type="color" label="Background" alpha='1' default="00000060" />        
+        <param name="bulletbackgroundhover" type="color" label="Background_hover" alpha='1' default="7670C7ff" />
+        <param name="fontclassnumber" type="fontmatrixchooser" label="Font" default="sliderfont7" />   
+               
+        <param name="bulletbar" type="radio" label="Bullet_bar" default="none">
+            <option value="none">None</option>
+            <option value="simple">Simple</option>
+            <option value="elegant">Elegant</option>
+            <option value="simplerounded">Simple_rounded</option>
+            <option value="elegantrounded">Elegant_rounded</option>
+        </param>            
+        <param name="bulletshadow" type="radio" label="Bullet_shadow" default="none">
+            <option value="none">None</option>
+            <option value="inner">Inner</option>
+            <option value="outer">Outer</option>
+        </param>
+        <param name="bulletbarcolor" type="color" label="Bullet_bar_color" alpha='1' default="00000060" />
+        <param type="mixed" name="bullethumbnail" label="Thumbnail" default="0|*|top">
+            <param type="onoff" label="Enabled"/>
+            <param type="list" label="Position">
+                <option value="top">Top</option>
+                <option value="right">Right</option>
+                <option value="bottom">Bottom</option>
+                <option value="left">Left</option>
+            </param>
+        </param>                             
+        <param name="thumbnailsizebullet" type="mixed" label="Thumbnail_size" default="100|*|60">
+            <param type="text" label="Width" style="width:50px;">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Height" style="width:50px;">
+                <unit>px</unit>
+            </param>
+        </param>
+        <param name="bulletthumbnail" type="color" label="Bullet_thumbnail_background" alpha='1' default="00000060" />     
+    </params>
+</root>

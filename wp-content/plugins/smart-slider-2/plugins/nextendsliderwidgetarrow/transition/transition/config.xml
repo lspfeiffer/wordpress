@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root translate="smartslider">
+    <params name="transition" label="Transition_settings" hidetitle="1">
+        <param label="Arrows with full version" type="trial" name="trial" src="http://www.nextendweb.com/demo/smartslider2/trial/arrow.png" />
+        <param type="mixed" name="previousposition" label="Previous_position" default="left|*|0|*|%|*|top|*|50|*|%">
+            <param type="list" label="Horizontal" mixedstyle="clear: both;" style="width:70px;" translateable="1">
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+            </param>
+            <param type="text" label="position" style="width:50px;" />
+            <param type="switcher" label="unit">
+                <unit value="px">px</unit>
+                <unit value="%">percent</unit>
+            </param>
+
+            <param type="list" label="Vertical" mixedstyle="clear: both;" style="width:70px;" translateable="1">
+                <option value="top">Top</option>
+                <option value="bottom">Bottom</option>
+            </param>
+            <param type="text" label="position" style="width:50px;" />
+            <param type="switcher" label="unit">
+                <unit value="px">px</unit>
+                <unit value="%">percent</unit>
+            </param>
+        </param>
+        <param type="cssimagelist" name="previous" label="Previous" folder="previous"
+               prefix="nextend-transition nextend-transition-previous nextend-transition-previous-" default="my-test.png">
+            <![CDATA[<div class="{class}"><div class="smartslider-outer"></div><div class="smartslider-inner"></div></div>]]>
+        </param>
+        <param type="mixed" name="nextposition" label="Next_position" default="right|*|0|*|%|*|top|*|50|*|%">
+            <param type="list" label="Horizontal" mixedstyle="clear: both;" style="width:70px;" translateable="1">
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+            </param>
+            <param type="text" label="position" style="width:50px;" />
+            <param type="switcher" label="unit">
+                <unit value="px">px</unit>
+                <unit value="%">percent</unit>
+            </param>
+
+            <param type="list" label="Vertical" mixedstyle="clear: both;" style="width:70px;" translateable="1">
+                <option value="top">Top</option>
+                <option value="bottom">Bottom</option>
+            </param>
+            <param type="text" label="position" style="width:50px;" />
+            <param type="switcher" label="unit">
+                <unit value="px">px</unit>
+                <unit value="%">percent</unit>
+            </param>
+        </param>
+        <param type="cssimagelist" name="next" label="Next" folder="next"
+               prefix="nextend-transition nextend-transition-previous nextend-transition-next-" default="my-test.png">
+            <![CDATA[<div class="{class}"><div class="smartslider-outer"></div><div class="smartslider-inner"></div></div>]]>
+        </param>
+                
+        <param name="arrowbackground" type="color" label="Background" alpha='1' default="00000080" />        
+        <param name="arrowbackgroundhover" type="color" label="Background_hover" alpha='1' default="7670c7ff" />
+    </params>
+</root>

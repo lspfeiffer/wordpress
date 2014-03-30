@@ -1,0 +1,297 @@
+.smartslider-icon{
+    background: url('../images/smallicons.png') no-repeat 0 0;
+    display: block;
+    height: 22px;
+    width: 22px;
+    overflow: hidden;
+    text-indent: -1000px;
+    opacity: 0.7;
+}
+
+.smartslider-icon-container .smartslider-icon{
+    display: none;
+}
+
+.smartslider-icon-container:HOVER .smartslider-icon{
+    display: block;
+}
+
+.smartslider-icon-trash{
+    background-position: 0 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-trash{
+    background-position: 0 -22px;
+}
+
+.smartslider-icon-duplicate{
+    background-position: -88px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-duplicate{
+    background-position: -88px -22px;
+}
+
+.smartslider-icon-starred{
+    background-position: -154px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-starred{
+    background-position: -154px -22px;
+}
+
+.smartslider-icon-star{
+    background-position: -176px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-star{
+    background-position: -176px -22px;
+}
+
+.smartslider-icon-generator{
+    background-position: -198px 0;
+}
+
+.nextend-slider-generator-enabled .smartslider-icon-generator{
+    background-position: -242px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-generator{
+    background-position: -198px -22px;
+}
+
+.nextend-slider-generator-enabled.active .smartslider-icon-generator{
+    background-position: -242px -22px;
+}
+.smartslider-icon-module{
+    background-position: -220px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-module{
+    background-position: -220px -22px;
+}
+
+.smartslider-icon-published{
+    background-position: -110px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-published{
+    background-position: -110px -22px;
+}
+
+.smartslider-icon-unpublished{
+    background-position: -132px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-unpublished{
+    background-position: -132px -22px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-icon:HOVER,
+.smartslider-icon-container.active .smartslider-icon:HOVER{
+    opacity: 1;
+}
+
+.smartslider-icon-container .smartslider-icon-add,
+.smartslider-icon-container .smartslider-icon-back,
+.smartslider-icon-container .smartslider-icon-import{
+    opacity: 1;
+    display: block;
+    float: left;
+    margin: 6px 2px 6px 6px;
+}
+
+.smartslider-icon-container .smartslider-icon-add{
+    background-position: -22px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-add{
+    background-position: -22px -22px;
+}
+
+.smartslider-icon-container .smartslider-icon-ordering{
+    display: block;
+    opacity: 1;
+    background-position: -44px 0;
+    cursor: move;
+}
+
+.smartslider-icon-container.active .smartslider-icon-ordering{
+    background-position: -44px -22px;
+}
+
+.smartslider-icon-container .smartslider-icon-smalladd{
+    display: block;
+    opacity: 1;
+    background-position: -66px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-smalladd{
+    background-position: -66px -22px;
+}
+
+.smartslider-icon-container .smartslider-icon-import{
+    background-position: -264px 0;
+}
+
+.smartslider-icon-container.active .smartslider-icon-import{
+    background-position: -264px -22px;
+}
+
+.smartslider-icon-container .smartslider-icon-back{
+    background-position: -286px 0;
+}
+
+
+.smartslider-qtip-icon{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    background: url('../images/qtipmenuicons.png') no-repeat 0 0;
+    display: block;
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    text-indent: -1000px;
+}
+
+.smartslider-qtip-icon.generator{
+    background-position: 0 0;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.generator{
+    background-position: 0 -40px;
+}
+
+.smartslider-qtip-icon.shortcode{
+    background-position: 0 -80px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.shortcode{
+    background-position: 0 -120px;
+}
+
+.smartslider-qtip-icon.duplicate{
+    background-position: 0 -160px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.duplicate{
+    background-position: 0 -200px;
+}
+
+.smartslider-qtip-icon.export{
+    background-position: 0 -240px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.export{
+    background-position: 0 -280px;
+}
+
+.smartslider-qtip-icon.subdelete{
+    background-position: 0 -320px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.subdelete{
+    background-position: 0 -360px;
+}
+
+.smartslider-qtip-icon.delete{
+    background-position: 0 -400px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.delete{
+    background-position: 0 -440px;
+}
+
+.smartslider-qtip-icon.star{
+    background-position: 0 -480px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.star{
+    background-position: 0 -520px;
+}
+
+.smartslider-qtip-icon.activegreen{
+    background-position: 0 -560px;
+    left: auto;
+    right: 4px;
+}
+
+.smartslider-qtip-icon.create_slider{
+    background-position: 0 -600px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.create_slider{
+    background-position: 0 -640px;
+}
+
+.smartslider-qtip-icon.fontsettings{
+    background-position: 0 -680px;
+}
+
+.smartslider-icon-container:HOVER .smartslider-qtip-icon.fontsettings{
+    background-position: 0 -720px;
+}
+
+.smartslider-action-icon{
+    background: url('../images/actionicons.png') no-repeat center 0;
+    display: block;
+    height: 22px;
+    width: 100%;
+    overflow: hidden;
+    text-indent: -1000px;
+    opacity: 0.7;
+}
+
+.smartslider-icon-container .smartslider-action-icon{
+    display: block;
+    opacity: 1;
+}
+
+.smartslider-action-icon-edit{
+    background-position: center 0;
+}
+
+.smartslider-action-icon-create{
+    background-position: center -40px;
+}
+
+.smartslider-action-icon-fonts{
+    background-position: center -80px;
+}
+
+.smartslider-action-icon-generator{
+    background-position: center -120px;
+}
+
+.smartslider-action-icon-duplicate{
+    background-position: center -160px;
+}
+
+.smartslider-action-icon-export{
+    background-position: center -200px;
+}
+
+.smartslider-action-icon-delete{
+    background-position: center -240px;
+}
+
+.smartslider-action-icon-delete-slider{
+    background-position: center -280px;
+}
+
+.smartslider-action-icon-generator-layout{
+    background-position: center -320px;
+}
+
+.smartslider-action-icon-refresh{
+    background-position: center -360px;
+}
+
+.smartslider-action-icon-generator-edit-layout{
+    background-position: center -400px;
+}
+
+.smartslider-action-icon-generator-settings{
+    background-position: center -440px;
+}

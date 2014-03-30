@@ -1,0 +1,9 @@
+<root translate="smartslider">
+    <params label="Html_item_settings">
+        <param name="html" type="textarea" label="HTML" default="" />
+        <param name="css" type="textarea" label="CSS" default="" />
+        <param name="onmouseenter" type="text" label="Event_on_mouseenter" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseclick" type="text" label="Event_on_mouseclick" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseleave" type="text" label="Event_on_mouseleave" description="JavaScript_code_to_run_on_the_event" default=""/>
+    </params>
+</root>

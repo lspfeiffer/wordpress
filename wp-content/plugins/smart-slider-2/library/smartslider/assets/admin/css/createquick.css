@@ -1,0 +1,84 @@
+#selected-images-container{
+    overflow: visible;
+    margin-bottom: 50px;
+}
+
+#smartslider-admin #selected-images{
+    margin: 5px 5px 5px 180px;
+    padding: 0;
+    position: relative;
+    min-width: 500px;
+    min-height: 114px;
+}
+
+#selected-images-container li{
+    position: relative;
+    display: block;
+    /*height: 130px;*/
+    /*width: 100%;*/
+    margin: 15px;
+    padding: 0;
+    list-style: none;
+    vertical-align: middle;
+    overflow: hidden;
+    border: 2px solid #dadde0;
+}
+
+#selected-images li.ui-state-highlight{
+    border: 2px dashed #c9cbcf;
+}
+
+#selected-images img{
+    cursor: move;
+    width: 20%;
+    float: left;
+}
+
+#selected-images .field-container{
+    float: left;
+    margin: 0 20px;
+    position: relative;
+    z-index:10;
+}
+
+#delete-image{
+    position: absolute;
+    margin: 10px 10px;
+    background: RGBA(213,99,93, 0);
+    width: 162px;
+    height: 100px;
+    transition: background 0.4s;
+    border: 2px dashed #dadde0;
+    background: RGBA(213,99,93,0) url("../images/trash.png") center center no-repeat;
+}
+
+#delete-image.over{
+    border-color: RGBA(213,99,93, 0.7);
+    background-color: RGBA(213,99,93, 0.4);
+}
+
+#delete-image li{
+    border: none;
+}
+
+#smartslider-admin li{
+    list-style: none;
+}
+
+#smartslider-admin .add-image{
+    margin: 10px;
+    padding-left: 10px;
+}
+
+#smartslider-admin .add-image .wp-media-buttons-icon {
+    background: url("../images/media-button.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    margin: 0 2px;
+    vertical-align: text-top;
+    width: 16px;
+}
+
+.attachment-filters{
+    display: none;
+}

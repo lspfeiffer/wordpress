@@ -1,0 +1,7 @@
+<root translate="smartslider">
+    <params name="items" label="Items" hidetitle="1">
+        <param name="items" type="list" label="Active_item" translateable="1" default="0">
+            <option value="0">available_items</option>
+        </param>
+    </params>
+</root>

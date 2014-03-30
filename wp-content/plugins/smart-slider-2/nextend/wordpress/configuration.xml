@@ -1,0 +1,18 @@
+<root translate="1">
+    <params name="cache" label="Cache">
+        <param type="clearcache" name="clearcache" label="Clear_cache" />
+        <param type="onoff" name="gzip" label="Gzip_compression" default="0" description="Only_enable_it_when_the_mod_deflate_not_enabled_in_apache" />
+        <param type="text" name="cachetime" label="Cache_time" default="31536000" description="1_or_higher" style="width: 60px;">
+            <unit>sec</unit>
+        </param>
+        <param type="text" name="cachepath" label="Cache path" default="cache/" description="" />
+        
+        <param type="radio" name="safemode" default="0" label="CSS and Javascript load mode" description="Safe mode solves a problem when the stylesheet is missing, but it could cause flickering.">
+            <option value="0">Normal</option>
+            <option value="2">Alternative #1</option>
+            <option value="1">Safe mode</option>
+        </param>
+        <param type="onoff" name="debuglng" label="Debug_language" default="0" />
+        <param type="onoff" name="logproblems" label="Log possible problems" default="1" />
+    </params>
+</root>

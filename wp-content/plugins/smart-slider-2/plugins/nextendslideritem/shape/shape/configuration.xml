@@ -1,0 +1,29 @@
+<root translate="smartslider">
+    <params label="Shape_item_settings">
+        <param name="shapeclass" type="list" label="Shape_type">
+            <option value="square">Square</option>            
+            <option value="rounded-square">Rounded Square</option>
+            <option value="circle">Circle</option>
+            <option value="triangle-up">Triangle up</option>
+            <option value="triangle-down">Triangle down</option>
+            <option value="triangle-left">Triangle left</option>
+            <option value="triangle-right">Triangle right</option>
+            <option value="triangle-top-left">Triangle top left</option>
+            <option value="triangle-top-right">Triangle top right</option>
+            <option value="triangle-bottom-left">Triangle bottom left</option>
+            <option value="triangle-bottom-right">Triangle bottom right</option>
+        </param>
+        <param name="size" type="mixed" label="Size" default="100|*|100">
+            <param type="text" label="Width" style="width:50px;">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Height"  style="width:50px;">
+                <unit>px</unit>
+            </param>
+        </param>
+        <param name="color" type="color" label="Shape_backgound" alpha="1" default="00000080"/>
+        <param name="onmouseenter" type="text" label="Event_on_mouseenter" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseclick" type="text" label="Event_on_mouseclick" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseleave" type="text" label="Event_on_mouseleave" description="JavaScript_code_to_run_on_the_event" default=""/>
+    </params>
+</root>

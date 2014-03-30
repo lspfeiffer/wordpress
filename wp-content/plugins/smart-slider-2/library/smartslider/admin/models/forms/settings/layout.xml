@@ -1,0 +1,12 @@
+<root translate="smartslider">
+    <params name="layout" label="Layout_settings_">
+        <param name="size" type="mixed" label="Size" default="700|*|300" description="Size_of_the_slider_in_the_layout_editor">
+            <param type="text" label="Width">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Height">
+                <unit>px</unit>
+            </param>
+        </param>
+    </params>
+</root>

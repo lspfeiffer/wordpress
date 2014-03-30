@@ -1,0 +1,11 @@
+.nextend-shortcode .ui-dialog-content{
+    display: none !important;
+}
+
+.nextend-shortcode.ui-dialog .ui-dialog-buttonpane{
+    border: 0;
+}
+
+.nextend-shortcode.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+    float: left;
+}

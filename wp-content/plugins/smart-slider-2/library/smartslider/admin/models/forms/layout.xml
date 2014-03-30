@@ -1,0 +1,8 @@
+<root translate="smartslider">
+    <params name="slide" label="Layout_settings">
+        <param name="title" type="text" label="Name" default="Layout 1" />
+    </params>
+    <params name="slidelayout" label="Slide_layout" type="slide">
+        <param name="slide" type="slide" label="Slide" />
+    </params>
+</root>

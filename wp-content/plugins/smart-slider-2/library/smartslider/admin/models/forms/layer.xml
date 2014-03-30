@@ -1,0 +1,50 @@
+<root translate="smartslider">
+    <params name="layer" label="Layers" hidetitle="1">
+        <param name="layer" type="list" label="Active_layer" default="0" translateable="1">
+            <option value="0">available_layers</option>
+        </param>
+        <param name="name" type="text" label="Layer_name" default="Layer" />
+    </params>
+    <params name="layerdetails" type="tabbed" active="2">
+        <params name="position" label="Position" hidetitle="1">
+            <param name="left" type="text" label="Left" default="" style="width:50px;" />
+            <param name="top" type="text" label="Top" default="" style="width:50px;" />
+            <param name="width" type="text" label="Width" default="" style="width:50px;" />
+            <param name="height" type="text" label="Height" default="" style="width:50px;" />
+            <param type="mixed" label="Show on" name="show" default="1|*|1|*|1" description="">
+                <param type="onoff" label="Desktop" />
+                <param type="onoff" label="Tablet" />
+                <param type="onoff" label="Mobile" />
+            </param>
+            <param name="resettodesktop" type="button" label="Reset positions to desktop" default="" />
+        </params>
+        <params name="animations" type="groupped" label="Animation">
+            <params name="properties" label="Properties" hidetitle="1">
+                <param name="layerbackgroundcolor" type="color" label="Background color" default="00000000" alpha="1" />
+            </params>
+            <params name="animationin" label="Animation_In">
+                <param name="animationin" type="sliderlayeranimation" translateable="1" label="Animation" default="0" />
+                <param name="durationin" type="text" label="Duration" default="500" style="width:50px;">
+                    <unit>ms</unit>
+                </param>
+                <param name="easingin" type="jqueryeasing" label="Easing" default="linear" />
+                <param name="delayin" type="text" label="Delay" default="0" style="width:50px;">
+                    <unit>ms</unit>
+                </param>
+                <param name="parallaxin" type="text" label="Parallax" default="0.45" style="width:50px;" />
+                <param name="playoutafter" type="onoff" label="Play_out_after" default="0" description="When_enabled_the_out_animation_will_play_instantly_when_the_layers_in_animation_finished"/>
+            </params>
+            <params name="animationout" label="Animation_Out">
+                <param name="animationout" type="sliderlayeranimation" translateable="1" label="Animation" default="0" />
+                <param name="durationout" type="text" label="Duration" default="500" style="width:50px;">
+                    <unit>ms</unit>
+                </param>
+                <param name="easingout" type="jqueryeasing" label="Easing" default="linear" />
+                <param name="delayout" type="text" label="Delay" default="0" style="width:50px;">
+                    <unit>ms</unit>
+                </param>
+                <param name="parallaxout" type="text" label="Parallax" default="0.45" style="width:50px;" />
+            </params>
+        </params>
+    </params>
+</root>

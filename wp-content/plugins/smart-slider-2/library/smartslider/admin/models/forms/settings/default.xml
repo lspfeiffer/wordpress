@@ -1,0 +1,73 @@
+<root translate="smartslider">
+    <params name="general" label="General_settings">
+        <param type="onoff" label="Frontend_debug_messages" name="debugmessages" default="1" description="This_switcher_disables_the_debug_messages_in_frontend" />
+        <param type="onoff" label="Slide_editor_leave_page_alert" name="slideeditoralert" default="1" description="You_can_disable_the_leaving_alert_on_the_slide_editor_page" />
+        <param type="mixed" label="Translate_url" name="translateurl" default="|*|" description="This_field_can_translate_absolute_urls_to_relative_urls_on_the_frontend_You_just_need_to_place_the_from_field_what_to_replace_and_to_field_contains_the_replacement">
+            <param type="text" label="From" />
+            <param type="text" label="To" />
+        </param>
+		<param type="text" name="externalcssfile" label="Additional_CSS_files" description="If_provided_additional_CSS_files_will_be_included_and_used_on_the_backend_Multiple_CSS_files_also_can_be_included_with_the__divider" default="" />
+        <param type="onoff" name="jquery" label="Load_jQuery_on_frontend" description="If_you_choose_not_to_load_please_make_sure_that_jQuery_version_18_or_higher_loaded_on_your_frontend" default="1" />
+        <param type="onoff" name="translate3d" label="Hardware_acceleration_on_sliders" default="1" description="If_you_see_flickers_in_some_browsers_you_can_try_to_disable_this" />
+        <param type="text" label="Placeholder_for_images" name="placeholder" default="http://www.nextendweb.com/static/placeholder.png" />
+        <param type="onoff" label="Resize remote urls" name="resizeremote" default="0" />
+    </params>
+    <params name="reponsive" label="Responsive mode">
+        <param type="radio" label="Based on" name="responsivebasedon" default="combined" description="">
+            <option value="device">Real device detection</option>
+            <option value="screen">Maximum screen width</option>
+            <option value="combined">Combined</option>
+        </param>
+        <param type="mixed" label="Maximum screen width" name="responsivescreenwidth" default="1024|*|640" description="">
+            <param type="text" label="Tablet" style="width:40px;">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Mobile" style="width:40px;">
+                <unit>px</unit>
+            </param>
+        </param>
+        <param type="mixed" label="Slide editor ratios" name="slideeditorratios" default="1.0|*|1.0|*|0.7|*|0.5" description="">
+            <param type="text" label="All" style="width:40px;" />
+            <param type="text" label="Desktop" style="width:40px;" />
+            <param type="text" label="Tablet" style="width:40px;" />
+            <param type="text" label="Mobile" style="width:40px;" />
+        </param>
+    </params>
+    <params name="generator" label="Generator">
+        <param type="onoff" label="Designer mode" name="generatordesignermode" default="1" description="In generator slide editor, the variables will be filled with values from the source." />
+    </params>
+    <params name="tidy" label="Tidy_settings">
+        <param type="list" default="utf8" name="tidy-input-encoding" label="Input_encoding" description="When_you_got_strange_characters_in_slide_editor_you_should_try_to_set_this_up_properly">
+            <option value="raw">raw</option>
+            <option value="ascii">ascii</option>
+            <option value="latin0">latin0</option>
+            <option value="latin1">latin1</option>
+            <option value="utf8">utf8</option>
+            <option value="iso2022">iso2022</option>
+            <option value="mac">mac</option>
+            <option value="win1252">win1252</option>
+            <option value="ibm858">ibm858</option>
+            <option value="utf16le">utf16le</option>
+            <option value="utf16be">utf16be</option>
+            <option value="utf16">utf16</option>
+            <option value="big5">big5</option>
+            <option value="shiftjis">shiftjis</option>
+        </param>
+        <param type="list" default="utf8" name="tidy-output-encoding" label="Output_encoding">
+            <option value="raw">raw</option>
+            <option value="ascii">ascii</option>
+            <option value="latin0">latin0</option>
+            <option value="latin1">latin1</option>
+            <option value="utf8">utf8</option>
+            <option value="iso2022">iso2022</option>
+            <option value="mac">mac</option>
+            <option value="win1252">win1252</option>
+            <option value="ibm858">ibm858</option>
+            <option value="utf16le">utf16le</option>
+            <option value="utf16be">utf16be</option>
+            <option value="utf16">utf16</option>
+            <option value="big5">big5</option>
+            <option value="shiftjis">shiftjis</option>
+        </param>
+    </params>
+</root>

@@ -1,0 +1,21 @@
+<root translate="smartslider">
+    <params name="imagetype" label="Flipper_item_settings">
+        <param name="imagefront" type="image" label="Front_image" default=""/>
+        <param name="imageback" type="image" label="Back_image" default=""/>
+        <param name="alt" type="text" label="Alt" default="Alternative text for image"/>
+        <param name="link" type="mixed" label="Link" default="#|*|_self" description="">
+            <param type="url" label="Link"/>
+            <param type="list" label="Target">
+                <option value="_self">Self</option>
+                <option value="_blank">Blank</option>
+            </param>
+        </param>
+        <param name="width" type="text" label="Width" default="100%"/>
+        <param name="css" type="textarea" label="CSS" default=""/>
+        <param name="flipclass" type="text" label="Custom_css_class" default=""/>
+		
+        <param name="onmouseenter" type="text" label="Event_on_mouseenter" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseclick" type="text" label="Event_on_mouseclick" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseleave" type="text" label="Event_on_mouseleave" description="JavaScript_code_to_run_on_the_event" default=""/>
+    </params>
+</root>

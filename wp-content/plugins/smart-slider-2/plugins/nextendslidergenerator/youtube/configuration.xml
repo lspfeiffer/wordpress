@@ -1,0 +1,8 @@
+<root>
+    <params name="basic" label="YoutTube generator">
+        <param name="url" type="button" label="Check tutorial" url="http://www.nextendweb.com/wiki/smart-slider-documentation/youtube-generator/" target="_blank" />
+        <param name="apikey" type="text" label="Client_ID" default="" />
+        <param name="apisecret" type="text" label="Client_secret" default="" />
+        <param name="token" type="youtubetoken" label="Token" default="" />
+    </params>
+</root>

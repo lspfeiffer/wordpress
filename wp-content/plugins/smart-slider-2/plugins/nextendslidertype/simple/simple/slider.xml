@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root translate="smartslider">
+    <params name="simpleslidertype" label="Simple_slider_type_settings">
+        <param type="image" name="simplebackgroundimage" default="" label="Background_image"/>
+        <param type="text" name="simplebackgroundimagesize" default="auto" label="Background_size"/>
+        <param type="mixed" name="simplepadding" default="0|*|0|*|0|*|0" label="Padding">
+            <param type="text" style="width: 30px;" label="Top">
+                <unit>px</unit>
+            </param>
+            <param type="text" style="width: 30px;" label="Right">
+                <unit>px</unit>
+            </param>
+            <param type="text" style="width: 30px;" label="Bottom">
+                <unit>px</unit>
+            </param>
+            <param type="text" style="width: 30px;" label="Left">
+                <unit>px</unit>
+            </param>
+        </param>
+        <param type="mixed" name="simpleborder" default="0|*|3E3E3Eff" label="Border">
+            <param type="text" style="width: 30px;" label="Width">
+                <unit>px</unit>
+            </param>
+            <param type="color" alpha='1' label="Color"/>
+        </param>
+        <param type="mixed" name="simpleborderradius" default="0|*|0|*|0|*|0" label="Border_radius">
+            <param type="text" style="width: 30px;" label="TL">
+                <unit>px</unit>
+            </param>
+            <param type="text" style="width: 30px;" label="TR">
+                <unit>px</unit>
+            </param>
+            <param type="text" style="width: 30px;" label="BR">
+                <unit>px</unit>
+            </param>
+            <param type="text" style="width: 30px;" label="BL">
+                <unit>px</unit>
+            </param>
+        </param>
+        <param type="text" name="simpleresponsivemaxwidth" style="width: 70px;" default="3000" label="Responsive_maximum_slide_width">
+            <unit>px</unit>
+        </param>
+        <param type="radio" name="improvedtouch" default="0" label="Improved touch">
+            <option value="0">Disabled</option>
+            <option value="horizontal">Horizontal</option>
+            <option value="vertical">Vertical</option>
+        </param>
+        <param name="simpleskins" type="mixed" default="" label="Choose_a_CSS_design">
+            <param type="skin" label="Theme">
+                <none label="None">
+                    <simpleslidercss></simpleslidercss>
+                </none>
+                <shadow label="Light_shadow">
+                    <simpleslidercss>box-shadow: 1px 0 5px RGBA(0, 0, 0, 0.2), -1px 0 5px RGBA(0, 0, 0, 0.2);
+                    </simpleslidercss>
+                </shadow>
+                <shadow2 label="Dark_shadow">
+                    <simpleslidercss>box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.6);</simpleslidercss>
+                </shadow2>
+                <photo label="Photo">
+                    <simpleslidercss>box-shadow: 1px 0 5px RGBA(0, 0, 0, 0.2), -1px 0 5px RGBA(0, 0, 0, 0.2);
+                    </simpleslidercss>
+                    <simpleborder>8|*|FFFFFFFF</simpleborder>
+                </photo>
+                <roundedphoto label="Photo_rounded">
+                    <simpleslidercss>box-shadow: 1px 0 5px RGBA(0, 0, 0, 0.2), -1px 0 5px RGBA(0, 0, 0, 0.2);
+                    </simpleslidercss>
+                    <simpleborder>5|*|FFFFFFFF</simpleborder>
+                    <simpleborderradius>12|*|12|*|12|*|12</simpleborderradius>
+                </roundedphoto>
+            </param>
+        </param>
+        <param type="textarea" name="simpleslidercss" default="" label="CSS"/>
+    </params>
+    <params name="simpledefaultslidertypeanimation" label="Animation_settings">
+        <param name="simpleanimation" type="list" label="Animation" default="horizontal" translateable="1" multiple="1" size="5">
+            <option value="notavailable1">No animation - full version</option>
+            <option value="horizontal">Horizontal</option>
+            <option value="notavailable2">Vertical - full version</option>
+            <option value="notavailable3">Fade - full version</option>
+        </param>
+        <param type="mixed" name="simpleanimationproperties" label="Properties"
+               default="1500|*|0|*|easeInOutQuint|*|1">
+            <param type="text" label="Duration" style="width:50px;">
+                <unit>ms</unit>
+            </param>
+            <param type="text" label="Delay" style="width:50px;">
+                <unit>ms</unit>
+            </param>
+            <param type="jqueryeasing" label="Easing"/>
+            <param type="text" label="Parallax" style="width:50px;"/>
+        </param>
+        <param type="mixed" name="simplebackgroundanimation" label="Background_animation"
+               default="0|*|bars||blocks">
+            <param type="onoff" label="Enabled"/>
+            <param type="list" label="Animation" multiple="1" size="12">
+                <option value="notavailable1">Dissolve - full version</option>
+                <option value="bars">Bars</option>
+                <option value="notavailable2">Zip - full version</option>
+                <option value="notavailable3">Blinds - full version</option>
+                <option value="notavailable4">Blocks - full version</option>
+                <option value="notavailable5">Blocks 2 - full version</option>
+                <option value="notavailable6">Concentric - full version</option>
+                <option value="notavailable7">Warp - full version</option>
+                <option value="notavailable8">Cube - 3D - full version</option>
+                <option value="notavailable9">Bars - 3D - full version</option>
+                <option value="notavailable10">Tiles - 3D - full version</option>
+                <option value="notavailable11">Page_turn - 3D - full version</option>
+            </param>
+        </param>
+    </params>
+</root>

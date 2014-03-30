@@ -1,0 +1,5 @@
+<root>
+    <params name="widgetsautoplay" label="" hidetitle="1">
+        <param label="Autoplay buttons with full version" type="trial" name="trial" src="http://www.nextendweb.com/demo/smartslider2/trial/autoplay.png" />
+    </params>
+</root>

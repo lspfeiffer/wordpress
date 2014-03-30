@@ -1,0 +1,115 @@
+<root translate="smartslider">
+    <params label="Heading_item_settings">
+        <param name="priority" type="list" label="Tag" default="1">
+            <option value="1">H1</option>
+            <option value="2">H2</option>
+            <option value="3">H3</option>
+            <option value="4">H4</option>
+            <option value="5">H5</option>
+            <option value="6">H6</option>
+        </param>
+        <param name="heading" type="textarea" label="Text" default="Heading"/>
+        <param name="link" type="mixed" label="Link" default="|*|_self" description="">
+            <param type="url" label="Link"/>
+            <param type="list" label="Target">
+                <option value="_self">Self</option>
+                <option value="_blank">Blank</option>
+            </param>
+        </param>
+        <param name="fontclass" type="fontmatrixchooser" label="Font" default="sliderfont1"/>
+        <param name="fontsize" type="text" label="Font_size" default="auto" style="width:30px;">
+            <unit>percent</unit>
+        </param>
+        <param name="fontcolor" type="mixed" label="Font_color" default="0|*|000000">
+            <param type="onoff" label="Enabled" />
+            <param type="color" label="Color" />
+        </param>
+        <param name="skins" type="mixed" label="Caption_Style">
+            <param type="skin" label="Choose_a_caption_style">
+
+                <nocaption label="None">
+                    <css><![CDATA[padding: 0;
+margin: 0;
+background: none;
+box-shadow: none;
+]]></css>
+                </nocaption>
+
+                <blackcaption label="Black_caption_40">
+                    <css><![CDATA[padding: 5px 10px;
+background: #000000;
+background: RGBA(0,0,0,0.4);
+box-shadow: 0 1px 1px RGBA(255,255,255, 0.2);
+]]></css>
+                </blackcaption>
+
+                <blackcaptiondark label="Black_caption_70">
+                    <css><![CDATA[padding: 5px 10px;
+background: #000000;
+background: RGBA(0,0,0,0.7);
+box-shadow: 0 1px 1px RGBA(255,255,255, 0.2);
+]]></css>
+                </blackcaptiondark>
+
+                <whitecaption label="White_caption_40">
+                    <css><![CDATA[padding: 5px 10px;
+background: #ffffff;
+background: RGBA(255,255,255,0.4);
+box-shadow: 0 1px 1px RGBA(0,0,0, 0.2);
+]]></css>
+                </whitecaption>
+
+                <whitecaptionlight label="White_caption_70">
+                    <css><![CDATA[padding: 5px 10px;
+background: #ffffff;
+background: RGBA(255,255,255,0.7);
+box-shadow: 0 1px 1px RGBA(0,0,0, 0.2);
+]]></css>
+                </whitecaptionlight>
+
+                <blue label="Blue">
+                    <css><![CDATA[padding: 5px 10px;
+background: #01ADD3;
+box-shadow: 0 1px 1px RGBA(0,0,0, 0.2);
+]]></css>
+                </blue>
+
+                <green label="Green">
+                    <css><![CDATA[padding: 5px 10px;
+background: #73AF33;
+box-shadow: 0 1px 1px RGBA(0,0,0, 0.2);
+]]></css>
+                </green>
+
+                <orange label="Orange">
+                    <css><![CDATA[padding: 5px 10px;
+background: #E67E22;
+box-shadow: 0 1px 1px RGBA(0,0,0, 0.2);
+]]></css>
+                </orange>
+
+                <red label="Red">
+                    <css><![CDATA[padding: 5px 10px;
+background: #C0392B;
+box-shadow: 0 1px 1px RGBA(0,0,0, 0.2);
+]]></css>
+                </red>
+
+                <levander label="Levander">
+                    <css><![CDATA[padding: 5px 10px;
+background: #7571A5;
+box-shadow: 0 1px 1px RGBA(0,0,0, 0.2);
+]]></css>
+                </levander>
+
+            </param>
+        </param>
+
+        <param name="css" type="textarea" label="CSS" default=""/>
+        <param name="class" type="text" label="Custom_css_class" default=""/>
+		
+        <param name="onmouseenter" type="text" label="Event_on_mouseenter" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseclick" type="text" label="Event_on_mouseclick" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseleave" type="text" label="Event_on_mouseleave" description="JavaScript_code_to_run_on_the_event" default=""/>
+    </params>
+</root>

@@ -1,0 +1,12 @@
+<root translate="smartslider">
+    <params name="vimeotype" label="Vimeo_item_settings">
+        <param name="vimeourl" type="text" label="Vimeo_url" />
+        <param name="autoplay" type="onoff" label="Autoplay" default="0"/>
+        <param name="reset" type="onoff" label="Reset video when lose focus" default="0"/>
+        <param name="title" type="onoff" label="Title" default="1"/>
+        <param name="byline" type="onoff" label="Users_byline" default="1"/>
+        <param name="portrait" type="onoff" label="Portrait" default="1"/>
+        <param name="loop" type="onoff" label="Loop" default="0"/>
+        <param name="color" type="color" label="Color" default="00adef"/>
+    </params>
+</root>

@@ -1,0 +1,15 @@
+<root translate="smartslider">
+    <params name="generator" label="Generator_settings">
+        <param name="enabled" type="onoff" label="Enabled" default="1" />
+        <param name="cachetime" type="text" label="Cache expiration" default="24" style="width:30px;">
+            <unit>hours</unit>
+        </param>
+        <param type="mixed" name="generateslides" label="Slides" default="5|*|0|*|0" description="If_create_slides_disabled_the_slides_will_only_generated_on_frontend_and_wont_exist_in_the_slide_list_on_the_backend_If_turned_on_then_the_slides_will_be_generated_as_a_dynamic_slides_with_vairables_If_static_slides_is_on_then_the_variables_turn_into_real_content">
+            <param type="text" label="Number" style="width:30px;"/>
+            <param type="onoff" label="Create_slides"/>
+            <param type="onoff" label="Static_slides"/>
+        </param>
+
+        <param type="text" name="generatorgroup" label="Group_result" default="1" style="width:30px;" description="This_option_allows_you_to_show_multiple_record_from_the_source_generator_on_one_slide" />
+    </params>
+</root>

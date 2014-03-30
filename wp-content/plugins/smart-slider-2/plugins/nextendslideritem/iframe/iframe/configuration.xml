@@ -1,0 +1,17 @@
+<root translate="smartslider">
+    <params name="imagetype" label="iframe_item_settings">
+        <param name="url" type="text" label="iframe_url" default="" />        
+        <param name="size" type="mixed" label="Size" default="100%|*|100%" translateable="1">
+            <param type="text" label="Width"  />
+            <param type="text" label="Height" />
+        </param>        
+        <param type="list" name="scroll" label="Scroll" translateable="1">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="auto">Auto</option>
+        </param>
+		<param name="onmouseenter" type="text" label="Event_on_mouseenter" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseclick" type="text" label="Event_on_mouseclick" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseleave" type="text" label="Event_on_mouseleave" description="JavaScript_code_to_run_on_the_event" default=""/>
+    </params>
+</root>

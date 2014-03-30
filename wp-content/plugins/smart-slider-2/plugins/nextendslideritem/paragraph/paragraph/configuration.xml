@@ -1,0 +1,18 @@
+<root translate="smartslider">
+    <params label="Text_item_settings">
+        <param name="content" type="textarea" label="Text" default="" />
+        <param name="fontclass" type="fontmatrixchooser" label="Font" default="" />
+        <param name="fontsize" type="text" label="Font_size" default="auto" style="width:30px;">
+            <unit>percent</unit>
+        </param>
+        <param name="fontcolor" type="mixed" label="Font_color" default="0|*|000000">
+            <param type="onoff" label="Enabled" />
+            <param type="color" label="Color" />
+        </param>
+        <param name="css" type="textarea" label="CSS" default="" />
+        <param name="class" type="text" label="Custom_css_class" default="" />
+        <param name="onmouseenter" type="text" label="Event_on_mouseenter" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseclick" type="text" label="Event_on_mouseclick" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseleave" type="text" label="Event_on_mouseleave" description="JavaScript_code_to_run_on_the_event" default=""/>
+    </params>
+</root>

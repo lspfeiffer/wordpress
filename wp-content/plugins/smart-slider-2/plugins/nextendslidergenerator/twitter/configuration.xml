@@ -1,0 +1,9 @@
+<root>
+    <params name="basic" label="Twitter generator">
+        <param name="url" type="button" label="Check tutorial" url="http://www.nextendweb.com/wiki/smart-slider-documentation/twitter-generator/" target="_blank" />
+        <param name="apikey" type="text" label="Consumer_key" default="" />
+        <param name="apisecret" type="text" label="Consumer_secret" default="" />
+        <param name="token" type="twittertoken" label="Token" default="" />
+        <param name="tokensecret" type="text" label="Token_secret" default="" />
+    </params>
+</root>

@@ -1,0 +1,51 @@
+<root translate="smartslider">
+    <params name="generator" label="Quick slider configuration">
+        <param type="text" name="name" label="Slider name" default="Slider #1" description="" />
+        <param name="size" type="mixed" label="Slider_size" default="800|*|500|*|1" description="If_canvas_size_enabled_the_slide_size_will_be_exactly_the_numbers_you_specified_If_it_is_off_then_the_slider_size_will_be_these_dimensions">
+            <param type="text" label="Width" style="width:50px">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Height" style="width:50px">
+                <unit>px</unit>
+            </param>
+            <param type="onoff" label="Canvas_size"/>
+        </param>
+    </params>
+    <params name="simpledefaultslidertypeanimation" label="Animation_settings">
+        <param name="simpleanimation" type="list" label="Animation" default="horizontal" translateable="1" multiple="1" size="5">
+            <option value="notavailable1">No animation - full version</option>
+            <option value="horizontal">Horizontal</option>
+            <option value="notavailable2">Vertical - full version</option>
+            <option value="notavailable3">Fade - full version</option>
+        </param>
+        <param type="mixed" name="simpleanimationproperties" label="Properties"
+               default="1500|*|0|*|easeInOutQuint|*|1">
+            <param type="text" label="Duration" style="width:50px;">
+                <unit>ms</unit>
+            </param>
+            <param type="text" label="Delay" style="width:50px;">
+                <unit>ms</unit>
+            </param>
+            <param type="jqueryeasing" label="Easing"/>
+            <param type="text" label="Parallax" style="width:50px;"/>
+        </param>
+        <param type="mixed" name="simplebackgroundanimation" label="Background_animation"
+               default="0|*|bars">
+            <param type="onoff" label="Enabled"/>
+            <param type="list" label="Animation" multiple="1" size="12">
+                <option value="notavailable1">Dissolve - full version</option>
+                <option value="bars">Bars</option>
+                <option value="notavailable2">Zip - full version</option>
+                <option value="notavailable3">Blinds - full version</option>
+                <option value="notavailable4">Blocks - full version</option>
+                <option value="notavailable5">Blocks 2 - full version</option>
+                <option value="notavailable6">Concentric - full version</option>
+                <option value="notavailable7">Warp - full version</option>
+                <option value="notavailable8">Cube - 3D - full version</option>
+                <option value="notavailable9">Bars - 3D - full version</option>
+                <option value="notavailable10">Tiles - 3D - full version</option>
+                <option value="notavailable11">Page turn - 3D - full version</option>
+            </param>
+        </param>
+    </params>
+</root>

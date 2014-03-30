@@ -1,0 +1,448 @@
+<root translate="smartslider">
+    <params label="Button_item_settings">
+        <param name="content" type="text" label="Text" default="Button"/>
+        <param name="link" type="mixed" label="Link" default="|*|_self|*|pointer" description="">
+            <param type="url" label="Link"/>
+            <param type="list" label="Target">
+                <option value="_self">Self</option>
+                <option value="_blank">Blank</option>
+            </param>
+        </param>
+        <param name="skins" type="mixed" label="Button_Style">
+            <param type="skin" label="Choose_a_style">
+
+                <redsimple label="Red_simple">
+                    <buttonclass>red-simple-button</buttonclass>
+                    <css><![CDATA[padding: 5px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+background: #e74c3c;
+]]></css>
+                    <csshover><![CDATA[background: #c0392b;
+              ]]></csshover>
+                </redsimple>
+
+                <purplesimple label="Purple_simple">
+                    <buttonclass>purple-simple-button</buttonclass>
+                    <css><![CDATA[padding: 5px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+background: #7571a5;
+]]></css>
+                    <csshover><![CDATA[background: #5c588e;
+              ]]></csshover>
+                </purplesimple>
+
+                <greensimple label="Green_simple">
+                    <buttonclass>green-simple-button</buttonclass>
+                    <css><![CDATA[padding: 5px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+background: #8ac62c;
+]]></css>
+                    <csshover><![CDATA[background: #73af33;
+              ]]></csshover>
+                </greensimple>
+
+                <bluesimple label="Blue_simple">
+                    <buttonclass>blue-simple-button</buttonclass>
+                    <css><![CDATA[
+padding: 5px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+background: #309dff;
+]]></css>
+                    <csshover><![CDATA[background: #2a89de;
+              ]]></csshover>
+                </bluesimple>
+
+
+                <whiteopacity label="White_opacity">
+                    <buttonclass>white-opacity-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.3);
+border: 2px solid rgba(255, 255, 255, 0.4);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #ffffff;
+background: rgba(255, 255, 255, 0.1);
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+-ms-transition: all 0.2s ease-in-out 0s;
+-o-transition: all 0.2s ease-in-out 0s;
+transition: all 0.2s ease-in-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #ffffff;
+background: rgba(255, 255, 255, 0.3);
+border: 2px solid rgba(255, 255, 255, 0.6);
+              ]]></csshover>
+                </whiteopacity>
+
+                <blackopacity label="Black_opacity">
+                    <buttonclass>black-opacity-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.3);
+border: 2px solid rgba(0, 0, 0, 0.4);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #000000;
+background: rgba(0, 0, 0, 0.1);
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+-ms-transition: all 0.2s ease-in-out 0s;
+-o-transition: all 0.2s ease-in-out 0s;
+transition: all 0.2s ease-in-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #000000;background: rgba(0, 0, 0, 0.3);
+border: 2px solid rgba(0, 0, 0, 0.6);
+              ]]></csshover>
+                </blackopacity>
+
+
+                <purpletransition label="Purple_transition">
+                    <buttonclass>purple-transition-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #8e44ad;
+-webkit-transition: background-color 0.4s ease-out 0s;
+-moz-transition: background-color 0.4s ease-out 0s;
+-ms-transition: background-color 0.4s ease-out 0s;
+-o-transition: background-color 0.4s ease-out 0s;
+transition: background-color 0.4s ease-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #9b59b6;
+              ]]></csshover>
+                </purpletransition>
+
+                <greentransition label="Green_transition">
+                    <buttonclass>green-transition-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #80ba26;
+-webkit-transition: background-color 0.4s ease-out 0s;
+-moz-transition: background-color 0.4s ease-out 0s;
+-ms-transition: background-color 0.4s ease-out 0s;
+-o-transition: background-color 0.4s ease-out 0s;
+transition: background-color 0.4s ease-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #6b9c1f;
+              ]]></csshover>
+                </greentransition>
+
+                <bluetransition label="Blue_transition">
+                    <buttonclass>blue-transition-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #2381e2;
+-webkit-transition: background-color 0.4s ease-out 0s;
+-moz-transition: background-color 0.4s ease-out 0s;
+-ms-transition: background-color 0.4s ease-out 0s;
+-o-transition: background-color 0.4s ease-out 0s;
+transition: background-color 0.4s ease-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #1e70c5;
+              ]]></csshover>
+                </bluetransition>
+
+
+                <purpletransitionrounded label="Purple_transition_rounded">
+                    <buttonclass>purple-transition-rounded-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #8e44ad;
+-webkit-transition: all 0.4s ease-out 0s;
+-moz-transition: all 0.4s ease-out 0s;
+-ms-transition: all 0.4s ease-out 0s;
+-o-transition: all 0.4s ease-out 0s;
+transition: all 0.4s ease-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #9b59b6;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+              ]]></csshover>
+                </purpletransitionrounded>
+
+                <greentransitionrounded label="Green_transition_rounded">
+                    <buttonclass>green-transition-rounded-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #80ba26;
+-webkit-transition: all 0.4s ease-out 0s;
+-moz-transition: all 0.4s ease-out 0s;
+-ms-transition: all 0.4s ease-out 0s;
+-o-transition: all 0.4s ease-out 0s;
+transition: all 0.4s ease-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #6b9c1f;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+              ]]></csshover>
+                </greentransitionrounded>
+
+                <bluetransitionrounded label="Blue_transition_rounded">
+                    <buttonclass>blue-transition-rounded-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #2381e2;
+-webkit-transition: all 0.4s ease-out 0s;
+-moz-transition: all 0.4s ease-out 0s;
+-ms-transition: all 0.4s ease-out 0s;
+-o-transition: all 0.4s ease-out 0s;
+transition: all 0.4s ease-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #1e70c5;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+              ]]></csshover>
+                </bluetransitionrounded>
+
+
+                <greengrad label="Green_gradient">
+                    <buttonclass>green-gradient-button</buttonclass>
+                    <css><![CDATA[padding: 5px 10px;
+border: 1px solid #366e02;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1) inset, 0 -2px rgba(0, 0, 0, 0.1) inset;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #90c829;
+background: -moz-linear-gradient(top,  #90c829 0%, #438b00 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#90c829), color-stop(100%,#438b00));
+background: -webkit-linear-gradient(top,  #90c829 0%,#438b00 100%);
+background: -o-linear-gradient(top,  #90c829 0%,#438b00 100%);
+background: -ms-linear-gradient(top,  #90c829 0%,#438b00 100%);
+background: linear-gradient(to bottom,  #90c829 0%,#438b00 100%);
+]]></css>
+                    <csshover><![CDATA[background: #9dd633;
+background: -moz-linear-gradient(top,  #9dd633 0%, #509d09 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9dd633), color-stop(100%,#509d09));
+background: -webkit-linear-gradient(top,  #9dd633 0%,#509d09 100%);
+background: -o-linear-gradient(top,  #9dd633 0%,#509d09 100%);
+background: -ms-linear-gradient(top,  #9dd633 0%,#509d09 100%);
+background: linear-gradient(to bottom,  #9dd633 0%,#509d09 100%);
+              ]]></csshover>
+                </greengrad>
+
+                <bluegrad label="Blue_gradient">
+                    <buttonclass>blue-gradient-button</buttonclass>
+                    <css><![CDATA[padding: 5px 10px;
+border: 1px solid #225bc1;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1) inset, 0 -2px rgba(0, 0, 0, 0.1) inset;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #339dff;
+background: -moz-linear-gradient(top,  #339dff 0%, #1060bf 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#339dff), color-stop(100%,#1060bf));
+background: -webkit-linear-gradient(top,  #339dff 0%,#1060bf 100%);
+background: -o-linear-gradient(top,  #339dff 0%,#1060bf 100%);
+background: -ms-linear-gradient(top,  #339dff 0%,#1060bf 100%);
+background: linear-gradient(to bottom,  #339dff 0%,#1060bf 100%);
+]]></css>
+                    <csshover><![CDATA[background: #4ca7fb;
+background: -moz-linear-gradient(top,  #4ca7fb 0%, #116ad3 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ca7fb), color-stop(100%,#116ad3));
+background: -webkit-linear-gradient(top,  #4ca7fb 0%,#116ad3 100%);
+background: -o-linear-gradient(top,  #4ca7fb 0%,#116ad3 100%);
+background: -ms-linear-gradient(top,  #4ca7fb 0%,#116ad3 100%);
+background: linear-gradient(to bottom,  #4ca7fb 0%,#116ad3 100%);
+              ]]></csshover>
+                </bluegrad>
+
+                <orangegrad label="Orange_gradient">
+                    <buttonclass>orange-gradient-button</buttonclass>
+                    <css><![CDATA[padding: 5px 10px;
+border: 1px solid #ce570f;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1) inset, 0 -2px rgba(0, 0, 0, 0.1) inset;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #f68f46;
+background: -moz-linear-gradient(top,  #f68f46 0%, #ee5930 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f68f46), color-stop(100%,#ee5930));
+background: -webkit-linear-gradient(top,  #f68f46 0%,#ee5930 100%);
+background: -o-linear-gradient(top,  #f68f46 0%,#ee5930 100%);
+background: -ms-linear-gradient(top,  #f68f46 0%,#ee5930 100%);
+background: linear-gradient(to bottom,  #f68f46 0%,#ee5930 100%);
+]]></css>
+                    <csshover><![CDATA[background: #fb9d55;
+background: -moz-linear-gradient(top,  #fb9d55 0%, #f85f39 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb9d55), color-stop(100%,#f85f39));
+background: -webkit-linear-gradient(top,  #fb9d55 0%,#f85f39 100%);
+background: -o-linear-gradient(top,  #fb9d55 0%,#f85f39 100%);
+background: -ms-linear-gradient(top,  #fb9d55 0%,#f85f39 100%);
+background: linear-gradient(to bottom,  #fb9d55 0%,#f85f39 100%);
+              ]]></csshover>
+                </orangegrad>
+
+
+                <cyanopacity label="Cyan_opacity">
+                    <buttonclass>cyan-opacity-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+border: 2px solid rgba(1, 173, 211, 0.6);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #01add3;
+background: rgba(1, 173, 211, 0.5);
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+-ms-transition: all 0.2s ease-in-out 0s;
+-o-transition: all 0.2s ease-in-out 0s;
+transition: all 0.2s ease-in-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #01add3;background: rgba(1, 173, 211, 0.8);
+              ]]></csshover>
+                </cyanopacity>
+
+                <cyanopacityinv label="Cyan_opacity_inverse">
+                    <buttonclass>cyan-opacity-inv-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;              
+border: 2px solid rgba(1, 173, 211, 0.8);
+background: #01add3;
+background: rgba(1, 173, 211, 0.8);
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+-ms-transition: all 0.2s ease-in-out 0s;
+-o-transition: all 0.2s ease-in-out 0s;
+transition: all 0.2s ease-in-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #01add3;background: rgba(1, 173, 211, 0.5);
+border: 2px solid rgba(1, 173, 211, 0.6);
+              ]]></csshover>
+                </cyanopacityinv>
+
+                <violetopacity label="Violet_opacity">
+                    <buttonclass>violet-opacity-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+border: 2px solid rgba(142, 68, 173, 0.6);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #8e44ad;
+background: rgba(142, 68, 173, 0.5);
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+-ms-transition: all 0.2s ease-in-out 0s;
+-o-transition: all 0.2s ease-in-out 0s;
+transition: all 0.2s ease-in-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #8e44ad;background: rgba(142, 68, 173, 0.8);
+              ]]></csshover>
+                </violetopacity>
+
+                <violetopacityinv label="Violet_opacity_inverse">
+                    <buttonclass>violet-opacity-inv-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;              
+border: 2px solid rgba(142, 68, 173, 0.8);
+background: #8e44ad;
+background: rgba(142, 68, 173, 0.8);
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+-ms-transition: all 0.2s ease-in-out 0s;
+-o-transition: all 0.2s ease-in-out 0s;
+transition: all 0.2s ease-in-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #8e44ad;background: rgba(142, 68, 173, 0.5);
+border: 2px solid rgba(142, 68, 173, 0.6);
+              ]]></csshover>
+                </violetopacityinv>
+
+                <poisonopacity label="Poison_opacity">
+                    <buttonclass>poison-opacity-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+border: 2px solid rgba(0, 206, 155, 0.6);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #00ce9b;
+background: rgba(0, 206, 155, 0.5);
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+-ms-transition: all 0.2s ease-in-out 0s;
+-o-transition: all 0.2s ease-in-out 0s;
+transition: all 0.2s ease-in-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #00ce9b;background: rgba(0, 206, 155, 0.8);
+              ]]></csshover>
+                </poisonopacity>
+
+                <poisonopacityinv label="Poison_opacity_inverse">
+                    <buttonclass>poison-opacity-inv-button</buttonclass>
+                    <css><![CDATA[padding: 8px 10px;
+box-shadow: 0 1px 1px RGBA(0,0,0,0.2);
+text-transform: uppercase;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;              
+border: 2px solid rgba(0, 206, 155, 0.8);
+background: #00ce9b;
+background: rgba(0, 206, 155, 0.8);
+-webkit-transition: all 0.2s ease-in-out 0s;
+-moz-transition: all 0.2s ease-in-out 0s;
+-ms-transition: all 0.2s ease-in-out 0s;
+-o-transition: all 0.2s ease-in-out 0s;
+transition: all 0.2s ease-in-out 0s;
+]]></css>
+                    <csshover><![CDATA[background: #00ce9b;background: rgba(0, 206, 155, 0.5);
+border: 2px solid rgba(0, 206, 155, 0.6);
+              ]]></csshover>
+                </poisonopacityinv>
+
+            </param>
+        </param>
+
+
+        <param name="buttonclass" type="text" label="Class" default=""/>
+        <param name="css" type="textarea" label="CSS" default=""/>
+        <param name="csshover" type="textarea" label="CSS_hover" default=""/>
+        <param name="fontclass" type="fontmatrixchooser" label="Font" default="sliderfont11"/>
+        <param name="class" type="text" label="Custom_css_class" default=""/>
+        <param name="onmouseenter" type="text" label="Event_on_mouseenter" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseclick" type="text" label="Event_on_mouseclick" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseleave" type="text" label="Event_on_mouseleave" description="JavaScript_code_to_run_on_the_event" default=""/>
+    </params>
+</root>

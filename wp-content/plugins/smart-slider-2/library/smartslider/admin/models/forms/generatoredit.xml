@@ -1,0 +1,5 @@
+<root translate="smartslider">
+    <params name="generator" label="Variables - copy the variables into slide or item fields" type="default1col">
+        <param name="variables" type="generatorvariables" label="Variables" description="" />
+    </params>
+</root>

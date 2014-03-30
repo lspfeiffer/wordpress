@@ -1,0 +1,48 @@
+<root translate="smartslider">
+    <params label="Caption_item_settings">
+        <param name="image" type="image" label="Image" default=""/>
+        <param name="alt" type="text" label="Alt" default="Alternative text for image"/>
+        <param name="link" type="mixed" label="Link" default="|*|_self" description="">
+            <param type="url" label="Link"/>
+            <param type="list" label="Target">
+                <option value="_self">Self</option>
+                <option value="_blank">Blank</option>
+            </param>
+        </param>
+        <param name="size" type="mixed" label="Size" default="130|*|120">
+            <param type="text" label="Width" style="width:50px;">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Height"  style="width:50px;">
+                <unit>px</unit>
+            </param>
+        </param>
+        <param name="content" type="text" label="Title" default="Button"/>
+        <param name="description" type="textarea" label="Description" default=""/>
+        <param name="captionclass" type="list" label="Caption_Style">
+            <option value="simple-bottom">Simple title bottom</option>
+            <option value="simple-left">Simple title left</option>
+            <option value="full-left">Full over left</option>
+            <option value="full-right">Full over right</option>
+            <option value="full-top">Full over top</option>
+            <option value="full-bottom">Full over bottom</option>
+            <option value="slide-right">Slide right</option>
+            <option value="slide-left">Slide left</option>
+            <option value="slide-top">Slide top</option>
+            <option value="slide-bottom">Slide bottom</option>
+            <option value="scale-left">Scale left</option>
+            <option value="scale-right">Scale right</option>
+            <option value="scale-top">Scale top</option>
+            <option value="scale-bottom">Scale bottom</option>
+            <option value="scale">Scale and slide</option>
+            <option value="fade">Fade</option>
+        </param>
+        <param name="fontclasstitle" type="fontmatrixchooser" label="Title_font" default="sliderfont1"/>
+        <param name="fontclass" type="fontmatrixchooser" label="Description_font" default="sliderfont11"/>
+        <param name="color" type="color" label="Caption_backgound" alpha="1" default="00000080"/>
+        <param name="customcaptionclass" type="text" label="Class" default="my-caption-custom-class"/>
+        <param name="onmouseenter" type="text" label="Event_on_mouseenter" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseclick" type="text" label="Event_on_mouseclick" description="JavaScript_code_to_run_on_the_event" default=""/>
+        <param name="onmouseleave" type="text" label="Event_on_mouseleave" description="JavaScript_code_to_run_on_the_event" default=""/>
+    </params>
+</root>

@@ -1,0 +1,27 @@
+<root translate="smartslider">
+    <params name="slide" label="Slide_settings">
+        <param name="title" type="text" label="Name" default="Slide 1" />
+        <param name="description" type="textarea" label="Description" default="" style2="height: 18px;" description="Used_in_some_widgets" />
+        <param name="published" type="onoff" label="Published" default="1" />
+        <param name="publishdates" type="mixed" label="Published_between" default="0000-00-00 00:00:00|*|0000-00-00 00:00:00">
+            <param type="date" label="Publish_up" />
+            <param type="date" label="Publish_down" />
+        </param>
+        <param name="thumbnail" type="image" label="Thumbnail_url" default="" description="Used_in_thumbnail_widgets" />
+        <param name="background" type="mixed" label="Background" default="ffffff00|*|" description="If_the_color_opacity_is_0_the_the_color_wont_show">
+            <param type="color" alpha="1" label="Color" />
+            <param type="image" label="Image" />
+        </param>
+        <param type="mixed" name="link" label="Link" default="|*|self" >
+            <param type="url" label="Link" />
+            <param type="list" label="Taget window">
+                <option value="_self">Self</option>
+                <option value="_blank">Blank</option>
+            </param>
+        </param>
+    </params>
+    <params name="slidelayout" label="Slide" type="slide">
+        <param name="slide" type="slide" label="Slide" />
+        <param name="adminmode" type="hidden" label="Admin mode" default="all" />
+    </params>
+</root>

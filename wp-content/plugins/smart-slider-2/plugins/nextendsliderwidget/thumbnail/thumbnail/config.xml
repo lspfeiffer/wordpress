@@ -1,0 +1,5 @@
+<root>
+    <params name="widgetsthumbnail" label="" hidetitle="1">
+        <param label="Thumbnails with full version" type="trial" name="trial" src="http://www.nextendweb.com/demo/smartslider2/trial/thumbnail.png" />
+    </params>
+</root>

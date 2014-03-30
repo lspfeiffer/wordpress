@@ -1,0 +1,217 @@
+
+
+.smartslider-toolbar .smartslider-button,
+.smartslider-toolbar .smartslider-button a{
+    height: 68px;
+    display: block;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button:HOVER,
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button.active{
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2) inset;
+    text-decoration: none;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button:ACTIVE,
+.smartslider-toolbar .smartslider-save:ACTIVE{
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.4) inset;
+    padding-top: 1px;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers{
+    float: left;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button{
+    float: left;
+    border-right: 1px solid #171C23;
+    width: auto;
+    min-width: 79px;
+    padding: 0 10px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button,
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button a{
+    text-align: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #E5E7E9;
+    font-size: 14px;    
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button a:HOVER,
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button a:ACTIVE{
+    text-decoration: none;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-button div{
+    width: 100%;
+    height: 42px;
+    background: url('../images/firstcolbuttons.png') no-repeat center 0;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-sliders div{
+    background-position: center -122px;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-settings div{
+    background-position: center -182px;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-layouts div{
+    background-position: center -242px;
+}
+
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-manual div{
+    background-position: center 3px;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-support div{
+    background-position: center -53px;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-getfull div{
+    background-position: center -303px;
+}
+
+.smartslider-toolbar .smartslider-toolbar-actions{
+    float: right;
+}
+
+.smartslider-toolbar .smartslider-save{
+    border-top-right-radius: 3px;
+    border-left: 1px solid #171C23;    
+    font-family: 'Open Sans', Arial, sans-serif;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+    color: #F3F7EF;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto;
+    line-height: 68px;
+    text-align: center;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+    width: 130px;
+    text-transform: uppercase;
+
+    background: #4A9901;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #98D130 0%, #4A9901 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #98D130 0%, #4A9901 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #98D130 0%, #4A9901 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #98D130), color-stop(1, #4A9901));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #98D130 0%, #4A9901 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #98D130 0%, #4A9901 100%);
+}
+
+
+.smartslider-toolbar .smartslider-save:HOVER{
+    background: #438B00;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #90C829 0%, #438B00 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #90C829 0%, #438B00 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #90C829 0%, #438B00 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #90C829), color-stop(1, #438B00));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #90C829 0%, #438B00 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #90C829 0%, #438B00 100%);
+}
+
+.smartslider-toolbar .smartslider-cancel{
+    border-top-right-radius: 0;
+    border-left: 1px solid #171C23;    
+    font-family: 'Open Sans', Arial, sans-serif;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+    color: #F3F7EF;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto;
+    line-height: 68px;
+    text-align: center;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+    width: 130px;
+    text-transform: uppercase;
+
+    background: #ac3a26;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #c96f48 0%, #ac3a26 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #c96f48 0%, #ac3a26 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #c96f48 0%, #ac3a26 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c96f48), color-stop(1, #ac3a26));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #c96f48 0%, #ac3a26 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #c96f48 0%, #ac3a26 100%);
+}
+
+.smartslider-toolbar .smartslider-cancel:HOVER{
+    background: #bb6843;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #bb6843 0%, #9f3624 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #bb6843 0%, #9f3624 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #bb6843 0%, #9f3624 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #bb6843), color-stop(1, #9f3624));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #bb6843 0%, #9f3624 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #bb6843 0%, #9f3624 100%);
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-support{
+    position: relative;
+}
+
+.smartslider-toolbar .smartslider-toolbar-controllers .smartslider-support .nextend-possibleproblems{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #BB533B;
+  text-align: center;
+}

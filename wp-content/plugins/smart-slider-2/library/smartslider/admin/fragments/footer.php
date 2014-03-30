@@ -1,0 +1,1 @@
+</div><!-- #smartslider-admin -->

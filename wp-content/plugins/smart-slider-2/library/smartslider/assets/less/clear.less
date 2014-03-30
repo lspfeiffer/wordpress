@@ -1,0 +1,142 @@
+(~'div@{id}') {
+
+  margin: @margin;
+  position: relative;
+  
+  *{
+      font-size: inherit;
+      line-height: inherit;
+  }  
+  
+  *,
+  *:before,
+  *:after  {
+      -moz-box-sizing: content-box;
+       box-sizing:content-box;
+  }
+  
+  &.nextend-slider-fadeload{
+      position: absolute;
+      opacity: 0;
+      -webkit-transition: opacity 0.3s ease-in-out;
+      -moz-transition: opacity 0.3s ease-in-out;
+      transition: opacity 0.3s ease-in-out;
+      
+      &.nextend-loaded{
+          opacity: 1;
+          position: relative;
+      }
+  }
+  
+  a,
+  a:focus{
+    outline: none !important;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p{
+    margin: 0;
+    padding-left:0;
+    padding-right:0;
+    height: auto;
+    width: auto;
+    border: 0;
+    box-shadow: none;
+  }
+  
+  img{
+      box-shadow: none;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      background: transparent;
+      background: none;
+      padding: 0;
+      margin: 0;
+      border: 0;
+  }
+
+  .smart-slider-canvas {
+    position: relative;
+  }
+
+  .smart-slider-canvas,
+  .smart-slider-layer {
+    overflow: hidden !important;
+  }
+
+  .smart-slider-canvas-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fontmatrix (@index) when (@index < @fonts) {
+    @fontclass : "@{font@{index}}";
+
+    (~'@{fontclass}') {
+      d: e(~"@{font@{index}text}");
+      a,
+      a:LINK,
+      a:VISITED,
+      a:FOCUS,
+      a:ACTIVE {
+        background: none;
+        d: e(~"@{font@{index}link}");
+      }
+
+      a:HOVER {
+        background: none;
+        d: e(~"@{font@{index}hover}");
+      }
+    }
+    .fontmatrix(@index + 1);
+  }
+
+  .fontmatrix(0);
+  
+  .nextend-widget{
+      display: none;
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective: 1;
+  }
+  
+  &.nextend-desktop .nextend-widget-display-desktop,
+  &.nextend-tablet .nextend-widget-display-tablet,
+  &.nextend-phone .nextend-widget-display-phone{
+      display: block;
+  }
+  
+  .nextend-widget-always {
+    -webkit-transform: translate3d(0,0,0);
+  }
+
+  .nextend-widget-hover {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease;
+    -moz-transition: opacity 0.4s ease;
+    -o-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+  }
+
+  &.nextend-widget-hover-show .nextend-widget-hover {
+    opacity: 1;
+  }
+  
+  .smart-slider-canvas .nextend-slide-bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      max-width: none !important;
+      height: auto;
+      background: rgba(0, 0, 0, 0.002);
+  }
+
+}

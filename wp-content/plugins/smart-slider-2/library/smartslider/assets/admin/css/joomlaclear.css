@@ -1,0 +1,9 @@
+#toolbar-box{
+    display: none;
+}
+
+#element-box .m{
+    background: #fff;
+    border: 0px;
+    border-radius: 0;
+}

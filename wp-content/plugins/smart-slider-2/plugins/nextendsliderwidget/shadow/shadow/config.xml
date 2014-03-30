@@ -1,0 +1,5 @@
+<root>
+    <params name="widgetsshadow" label="" hidetitle="1">
+        <param label="Shadows with full version" type="trial" name="trial" src="http://www.nextendweb.com/demo/smartslider2/trial/shadow.png" />
+    </params>
+</root>

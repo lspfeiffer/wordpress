@@ -1,0 +1,157 @@
+.nextend-bullet-container{
+    z-index: 10;
+    visibility: visible;
+    display: inline-block;
+}
+
+.nextend-bullet{
+    cursor: pointer;
+}
+
+.nextend-bullet-vertical .nextend-bullet{
+    float: left;
+    clear: left;
+}
+
+.nextend-bullet.active{
+    cursor: default;
+}
+
+.nextend-bullet .nextend-bullet-transition.bullet-shadow-inner{
+    box-shadow:  0 1px 0 RGBA(255,255,255,.2), 0 1px 2px RGBA(0,0,0,.5) inset;
+}
+
+.nextend-bullet .nextend-bullet-transition.bullet-shadow-outer{
+    box-shadow:  0 1px 1px RGBA(0,0,0,.3);
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-transition.bullet-bar-simple-rounded{
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px; 
+    padding: 8px 10px;
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-transition.bullet-bar-elegant-rounded{
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px; 
+    padding: 6px 10px;
+    box-shadow: 0 0 0 1px RGBA(0,0,0,.5), 0 0 0 1px RGBA(255,255,255,.2) inset;
+}
+.nextend-bullet-container.nextend-bullet.nextend-bullet-transition.bullet-bar-simple{
+    padding: 8px 10px;
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-transition.bullet-bar-elegant{
+    padding: 6px 10px;
+    box-shadow: 0 0 0 1px RGBA(0,0,0,.5), 0 0 0 1px RGBA(255,255,255,.2) inset;
+}
+
+.nextend-bullet-transition .nextend-bullet-transition{
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: inline-block;
+}
+
+.x-msie-7 .nextend-bullet-transition .nextend-bullet-transition{
+    display: inline;
+    zoom: 1;
+}
+
+.nextend-bullet-transition .nextend-bullet-transition{
+    background: RGBA(0,0,0,0.6);
+    border-color: RGBA(0,0,0,0.6);
+}
+
+.nextend-bullet-transition .nextend-bullet-transition.active,
+.nextend-bullet-transition .nextend-bullet-transition:HOVER{
+    background: #7670C7;
+    border-color: RGBA(0,0,0,0.6);
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple .nextend-bullet{
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-small .nextend-bullet{
+    width: 9px;
+    height: 9px;
+    margin: 3px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-mini .nextend-bullet{
+    width: 6px;
+    height: 6px;
+    margin: 3px;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-scale .nextend-bullet{
+    width: 14px;
+    height: 14px;
+    margin: 6px 4px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;    
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+}
+
+
+.nextend-bullet-container.nextend-bullet-transition-simple-scale .nextend-bullet.active,
+.nextend-bullet-container.nextend-bullet-transition-simple-scale .nextend-bullet:HOVER{
+    transform: scale(1);
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-circle .nextend-bullet{
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-simple-circle-bold .nextend-bullet{
+    width: 6px;
+    height: 6px;
+    margin: 4px;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;     
+}
+
+.nextend-bullet-container.nextend-bullet-transition-rectangle .nextend-bullet{
+    width: 20px;
+    height: 6px;
+    margin: 3px;
+}
+
+.nextend-bullet-container.nextend-bullet-transition-square .nextend-bullet{
+    width: 15px;
+    height: 15px;
+    margin: 4px;
+}

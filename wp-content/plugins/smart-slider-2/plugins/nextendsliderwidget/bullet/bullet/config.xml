@@ -1,0 +1,14 @@
+<root>
+    <params name="widgetsbullet" label="" hidetitle="1">
+        <param name="widgetbullet" type="subpluginmatrix" label="Bullet" group="nextendsliderwidgetbullet" method="bullet" file="config.xml" default="" />
+        <param type="mixed" label="Display" name="widgetbulletdisplay" default="0|*|always|*|0|*|0">
+            <param type="onoff" label="Desktop"/>
+            <param type="list" label="Desktop mode" translateable="1">
+                <option value="always">Always</option>
+                <option value="hover">on_Hover</option>
+            </param>
+            <param type="onoff" label="Tablet"/>
+            <param type="onoff" label="Mobile"/>
+        </param>
+    </params>
+</root>

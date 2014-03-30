@@ -1,0 +1,776 @@
+/* Thursday 27th of March 2014 10:01:56 PM*/
+
+/* Thursday 27th of March 2014 10:01:56 PM*/
+
+div#nextend-smart-slider-2 .smart-slider-animate-fade.smart-slider-animate-in {
+  z-index: 3;
+}
+div#nextend-smart-slider-2 .smart-slider-animate-fade.smart-slider-animate-out {
+  z-index: 2;
+}
+div#nextend-smart-slider-2 .smart-slider-animate-slide.smart-slider-animate-in {
+  z-index: 2;
+  opacity: 1;
+}
+div#nextend-smart-slider-2 .smart-slider-animate-slide.smart-slider-animate-out {
+  z-index: 3;
+  opacity: 1;
+}
+div#nextend-smart-slider-2 {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+div#nextend-smart-slider-2 * {
+  font-size: inherit;
+  line-height: inherit;
+}
+div#nextend-smart-slider-2 *,
+div#nextend-smart-slider-2 *:before,
+div#nextend-smart-slider-2 *:after {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+div#nextend-smart-slider-2.nextend-slider-fadeload {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+div#nextend-smart-slider-2.nextend-slider-fadeload.nextend-loaded {
+  opacity: 1;
+  position: relative;
+}
+div#nextend-smart-slider-2 a,
+div#nextend-smart-slider-2 a:focus {
+  outline: none !important;
+}
+div#nextend-smart-slider-2 h1,
+div#nextend-smart-slider-2 h2,
+div#nextend-smart-slider-2 h3,
+div#nextend-smart-slider-2 h4,
+div#nextend-smart-slider-2 h5,
+div#nextend-smart-slider-2 h6,
+div#nextend-smart-slider-2 p {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  height: auto;
+  width: auto;
+  border: 0;
+  box-shadow: none;
+}
+div#nextend-smart-slider-2 img {
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: transparent;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+div#nextend-smart-slider-2 .smart-slider-canvas {
+  position: relative;
+}
+div#nextend-smart-slider-2 .smart-slider-canvas,
+div#nextend-smart-slider-2 .smart-slider-layer {
+  overflow: hidden !important;
+}
+div#nextend-smart-slider-2 .smart-slider-canvas-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+div#nextend-smart-slider-2 .sliderfont1 {
+  color: #ffffff;font-size:320%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont1 a,
+div#nextend-smart-slider-2 .sliderfont1 a:LINK,
+div#nextend-smart-slider-2 .sliderfont1 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont1 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont1 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont1 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont2 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:320%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont2 a,
+div#nextend-smart-slider-2 .sliderfont2 a:LINK,
+div#nextend-smart-slider-2 .sliderfont2 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont2 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont2 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont2 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont3 {
+  color: #ffffff;font-size:170%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont3 a,
+div#nextend-smart-slider-2 .sliderfont3 a:LINK,
+div#nextend-smart-slider-2 .sliderfont3 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont3 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont3 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont3 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont4 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:170%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont4 a,
+div#nextend-smart-slider-2 .sliderfont4 a:LINK,
+div#nextend-smart-slider-2 .sliderfont4 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont4 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont4 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont4 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont5 {
+  color: #ffffff;font-size:114%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont5 a,
+div#nextend-smart-slider-2 .sliderfont5 a:LINK,
+div#nextend-smart-slider-2 .sliderfont5 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont5 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont5 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont5 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont6 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:114%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont6 a,
+div#nextend-smart-slider-2 .sliderfont6 a:LINK,
+div#nextend-smart-slider-2 .sliderfont6 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont6 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont6 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont6 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont7 {
+  color: #ffffff;font-size:90%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont7 a,
+div#nextend-smart-slider-2 .sliderfont7 a:LINK,
+div#nextend-smart-slider-2 .sliderfont7 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont7 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont7 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont7 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont8 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:90%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont8 a,
+div#nextend-smart-slider-2 .sliderfont8 a:LINK,
+div#nextend-smart-slider-2 .sliderfont8 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont8 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont8 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont8 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont9 {
+  color: #ffffff;font-size:140%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont9 a,
+div#nextend-smart-slider-2 .sliderfont9 a:LINK,
+div#nextend-smart-slider-2 .sliderfont9 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont9 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont9 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont9 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont10 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:140%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont10 a,
+div#nextend-smart-slider-2 .sliderfont10 a:LINK,
+div#nextend-smart-slider-2 .sliderfont10 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont10 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont10 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont10 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont11 {
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont11 a,
+div#nextend-smart-slider-2 .sliderfont11 a:LINK,
+div#nextend-smart-slider-2 .sliderfont11 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont11 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont11 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont11 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont12 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont12 a,
+div#nextend-smart-slider-2 .sliderfont12 a:LINK,
+div#nextend-smart-slider-2 .sliderfont12 a:VISITED,
+div#nextend-smart-slider-2 .sliderfont12 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfont12 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfont12 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom5 {
+  color: #6b6b6b;font-size:220%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom5 a,
+div#nextend-smart-slider-2 .sliderfontcustom5 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom5 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom5 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom5 a:ACTIVE {
+  background: none;
+  color: #87d2ce;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom5 a:HOVER {
+  background: none;
+  color: #82c7c3;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom6 {
+  color: #878787;font-size:140%;text-shadow: none;font-family: 'Average',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom6 a,
+div#nextend-smart-slider-2 .sliderfontcustom6 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom6 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom6 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom6 a:ACTIVE {
+  background: none;
+  color: #878787;font-size:100%;text-shadow: none;font-family: 'Average',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom6 a:HOVER {
+  background: none;
+  color: #69bdb9;font-size:100%;text-shadow: none;font-family: 'Average',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom7 {
+  color: #a7a7a7;font-size:130%;text-shadow: none;font-family: 'Average',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom7 a,
+div#nextend-smart-slider-2 .sliderfontcustom7 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom7 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom7 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom7 a:ACTIVE {
+  background: none;
+  color: #69bdb9;color: RGBA(105,189,185,0.7);font-size:100%;text-shadow: none;font-family: 'Average',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom7 a:HOVER {
+  background: none;
+  color: #69bdb9;font-size:100%;text-shadow: none;font-family: 'Average',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom8 {
+  color: #6cc8c3;font-size:110%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom8 a,
+div#nextend-smart-slider-2 .sliderfontcustom8 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom8 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom8 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom8 a:ACTIVE {
+  background: none;
+  color: #6cc8c3;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom8 a:HOVER {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.92);font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom9 {
+  color: #6b6b6b;font-size:220%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom9 a,
+div#nextend-smart-slider-2 .sliderfontcustom9 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom9 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom9 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom9 a:ACTIVE {
+  background: none;
+  color: #87d2ce;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom9 a:HOVER {
+  background: none;
+  color: #82c7c3;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom10 {
+  color: #aaaaaa;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom10 a,
+div#nextend-smart-slider-2 .sliderfontcustom10 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom10 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom10 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom10 a:ACTIVE {
+  background: none;
+  color: #aaaaaa;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom10 a:HOVER {
+  background: none;
+  color: #69bdb9;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom11 {
+  color: #a7a7a7;font-size:110%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom11 a,
+div#nextend-smart-slider-2 .sliderfontcustom11 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom11 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom11 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom11 a:ACTIVE {
+  background: none;
+  color: #69bdb9;color: RGBA(105,189,185,0.7);font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom11 a:HOVER {
+  background: none;
+  color: #69bdb9;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom12 {
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom12 a,
+div#nextend-smart-slider-2 .sliderfontcustom12 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom12 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom12 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom12 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom12 a:HOVER {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.92);font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom13 {
+  color: #ffffff;font-size:220%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom13 a,
+div#nextend-smart-slider-2 .sliderfontcustom13 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom13 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom13 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom13 a:ACTIVE {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.93);font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom13 a:HOVER {
+  background: none;
+  color: #82c7c3;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom14 {
+  color: #ffffff;color: RGBA(255,255,255,0.77);font-size:110%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom14 a,
+div#nextend-smart-slider-2 .sliderfontcustom14 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom14 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom14 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom14 a:ACTIVE {
+  background: none;
+  color: #69bdb9;color: RGBA(105,189,185,0.7);font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom14 a:HOVER {
+  background: none;
+  color: #69bdb9;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom15 {
+  color: #ffffff;font-size:270%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom15 a,
+div#nextend-smart-slider-2 .sliderfontcustom15 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom15 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom15 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom15 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom15 a:HOVER {
+  background: none;
+  color: #82c7c3;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom16 {
+  color: #ffffff;color: RGBA(255,255,255,0.77);font-size:120%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom16 a,
+div#nextend-smart-slider-2 .sliderfontcustom16 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom16 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom16 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom16 a:ACTIVE {
+  background: none;
+  color: #69bdb9;color: RGBA(105,189,185,0.7);font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom16 a:HOVER {
+  background: none;
+  color: #69bdb9;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom17 {
+  color: #435664;font-size:240%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom17 a,
+div#nextend-smart-slider-2 .sliderfontcustom17 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom17 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom17 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom17 a:ACTIVE {
+  background: none;
+  color: #435664;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom17 a:HOVER {
+  background: none;
+  color: #8e44ad;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom18 {
+  color: #607280;font-size:130%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom18 a,
+div#nextend-smart-slider-2 .sliderfontcustom18 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom18 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom18 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom18 a:ACTIVE {
+  background: none;
+  color: #435664;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom18 a:HOVER {
+  background: none;
+  color: #8e44ad;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom19 {
+  color: #8f959d;color: RGBA(143,149,157,0.91);font-size:110%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom19 a,
+div#nextend-smart-slider-2 .sliderfontcustom19 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom19 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom19 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom19 a:ACTIVE {
+  background: none;
+  color: #435664;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom19 a:HOVER {
+  background: none;
+  color: #8e44ad;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom20 {
+  color: #8e44ad;font-size:240%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom20 a,
+div#nextend-smart-slider-2 .sliderfontcustom20 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom20 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom20 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom20 a:ACTIVE {
+  background: none;
+  color: #435664;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom20 a:HOVER {
+  background: none;
+  color: #7f3c9c;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom21 {
+  color: #b470a2;font-size:170%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom21 a,
+div#nextend-smart-slider-2 .sliderfontcustom21 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom21 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom21 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom21 a:ACTIVE {
+  background: none;
+  color: #b470a2;font-size:100%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom21 a:HOVER {
+  background: none;
+  color: #f58700;font-size:100%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom22 {
+  color: #8e44ad;font-size:160%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom22 a,
+div#nextend-smart-slider-2 .sliderfontcustom22 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom22 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom22 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom22 a:ACTIVE {
+  background: none;
+  color: #435664;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom22 a:HOVER {
+  background: none;
+  color: #7f3c9c;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom23 {
+  color: #999999;font-size:110%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom23 a,
+div#nextend-smart-slider-2 .sliderfontcustom23 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom23 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom23 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom23 a:ACTIVE {
+  background: none;
+  color: #999999;font-size:100%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom23 a:HOVER {
+  background: none;
+  color: #f58700;font-size:100%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom24 {
+  color: #b470a2;font-size:260%;text-shadow: none;font-family: 'Bebas',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom24 a,
+div#nextend-smart-slider-2 .sliderfontcustom24 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom24 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom24 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom24 a:ACTIVE {
+  background: none;
+  color: #b470a2;font-size:100%;text-shadow: none;font-family: 'Bebas',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom24 a:HOVER {
+  background: none;
+  color: #b470a2;font-size:100%;text-shadow: none;font-family: 'Bebas',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom25 {
+  color: #8a8a8a;font-size:110%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom25 a,
+div#nextend-smart-slider-2 .sliderfontcustom25 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom25 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom25 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom25 a:ACTIVE {
+  background: none;
+  color: #8a8a8a;font-size:100%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom25 a:HOVER {
+  background: none;
+  color: #f58700;font-size:100%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom26 {
+  color: #ffffff;font-size:260%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom26 a,
+div#nextend-smart-slider-2 .sliderfontcustom26 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom26 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom26 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom26 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom26 a:HOVER {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.85);font-size:100%;text-shadow: none;font-family: 'Raleway',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom27 {
+  color: #ffffff;font-size:380%;text-shadow: none;font-family: 'Bebas',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom27 a,
+div#nextend-smart-slider-2 .sliderfontcustom27 a:LINK,
+div#nextend-smart-slider-2 .sliderfontcustom27 a:VISITED,
+div#nextend-smart-slider-2 .sliderfontcustom27 a:FOCUS,
+div#nextend-smart-slider-2 .sliderfontcustom27 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Bebas',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .sliderfontcustom27 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Bebas',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-2 .nextend-widget {
+  display: none;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1;
+}
+div#nextend-smart-slider-2.nextend-desktop .nextend-widget-display-desktop,
+div#nextend-smart-slider-2.nextend-tablet .nextend-widget-display-tablet,
+div#nextend-smart-slider-2.nextend-phone .nextend-widget-display-phone {
+  display: block;
+}
+div#nextend-smart-slider-2 .nextend-widget-always {
+  -webkit-transform: translate3d(0,0,0);
+}
+div#nextend-smart-slider-2 .nextend-widget-hover {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease;
+  -moz-transition: opacity 0.4s ease;
+  -o-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+}
+div#nextend-smart-slider-2.nextend-widget-hover-show .nextend-widget-hover {
+  opacity: 1;
+}
+div#nextend-smart-slider-2 .smart-slider-canvas .nextend-slide-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: none !important;
+  height: auto;
+  background: rgba(0,0,0,0.002);
+}
+div#nextend-smart-slider-2 {
+  width: 800px;
+  height: 500px;
+  float: left;
+}
+.x-rtl div#nextend-smart-slider-2 {
+  float: right;
+}
+div#nextend-smart-slider-2 .smart-slider-border1 {
+  position: relative;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  height: 500px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #3E3E3E;
+  border-color: RGBA(62,62,62,1);
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: auto;
+}
+div#nextend-smart-slider-2 .smart-slider-border2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+.x-firefox div#nextend-smart-slider-2 .smart-slider-border2 {
+  opacity: 0.99999;
+}
+div#nextend-smart-slider-2 .smart-slider-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 500px;
+  z-index: 2;
+  display: block;
+  -webkit-backface-visibility: hidden;
+}
+div#nextend-smart-slider-2 .smart-slider-canvas-inner {
+  position: relative;
+  width: 800px;
+  height: 500px;
+}
+div#nextend-smart-slider-2 .smart-slider-slide-active {
+  z-index: 3;
+}
+div#nextend-smart-slider-2 .smart-slider-layer {
+  position: absolute;
+}
+div#nextend-smart-slider-2 .nextend-flux {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+div#nextend-smart-slider-2 .nextend-flux img {
+  max-width: none !important;
+  opacity: 0.999;
+}
+div#nextend-smart-slider-2 .current {
+  border: 0;
+  padding: 0;
+}
+
+                #nextend-smart-slider-2 .nextend-transition.nextend-transition-previous .smartslider-outer,
+                #nextend-smart-slider-2 .nextend-transition.nextend-transition-next .smartslider-outer{
+                    background-color:RGBA(0,0,0,0.5);
+                }
+                #nextend-smart-slider-2 .nextend-transition.nextend-transition-previous .smartslider-inner,
+                #nextend-smart-slider-2 .nextend-transition.nextend-transition-next .smartslider-inner{
+                    background-color:RGBA(118,112,199,1);
+                }
+                #nextend-smart-slider-2 .nextend-bullet-container .nextend-bullet-numbers.nextend-bullet{                
+                  background:RGBA(0,0,0,0.38);
+                }
+                #nextend-smart-slider-2 .nextend-bullet-container .nextend-bullet-numbers.nextend-bullet.active,
+                #nextend-smart-slider-2 .nextend-bullet-container .nextend-bullet-numbers.nextend-bullet:HOVER{
+                  background:RGBA(118,112,199,1);
+                }
+                #nextend-smart-slider-2 .nextend-bullet-container.nextend-bullet.nextend-bullet-numbers.bullet-bar-simple-rounded,              
+                #nextend-smart-slider-2 .nextend-bullet-container.nextend-bullet.nextend-bullet-numbers.bullet-bar-elegant-rounded,
+                #nextend-smart-slider-2 .nextend-bullet-container.nextend-bullet.nextend-bullet-numbers.bullet-bar-simple,              
+                #nextend-smart-slider-2 .nextend-bullet-container.nextend-bullet.nextend-bullet-numbers.bullet-bar-elegant{              
+                  background:RGBA(0,0,0,0.38);
+                }
+                #nextend-smart-slider-2 .nextend-bullet-numbers-thumbnail .qtip-content{
+                  width:100px;                
+                  height:60px;
+                  padding: 4px;
+                }         
+                #nextend-smart-slider-2 .nextend-bullet-numbers-thumbnail .qtip-content img{
+                  box-shadow: 0 0px 0px 1px RGBA(255,255,255,.2);
+                }
+                #nextend-smart-slider-2 .nextend-bullet-numbers-thumbnail{
+                  background: RGBA(0,0,0,0.38);
+                }div#nextend-smart-slider-2.nextend-slider-fadeload{position: absolute; opacity: 0;}

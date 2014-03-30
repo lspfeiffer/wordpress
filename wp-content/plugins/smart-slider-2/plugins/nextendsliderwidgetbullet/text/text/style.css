@@ -1,0 +1,92 @@
+.nextend-bullet-container{
+    z-index: 10;
+    visibility: visible;
+    display: inline-block;
+}
+
+.nextend-bullet{
+    cursor: pointer;
+}
+
+.nextend-bullet.active{
+    cursor: default;
+}
+
+.nextend-bullet-vertical .nextend-bullet{
+    float: left;
+    clear: left;
+}
+
+.nextend-bullet .nextend-bullet-text.bullet-shadow-inner{
+    box-shadow:  0 1px 0 RGBA(255,255,255,.2), 0 1px 2px RGBA(0,0,0,.5) inset;
+}
+
+.nextend-bullet .nextend-bullet-text.bullet-shadow-outer{
+    box-shadow:  0 1px 1px RGBA(0,0,0,.3);
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-simple-rounded{
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px; 
+    padding: 8px 10px;
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-elegant-rounded{
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px; 
+    padding: 6px 10px;
+    box-shadow: 0 0 0 1px RGBA(0,0,0,.5), 0 0 0 1px RGBA(255,255,255,.2) inset;
+}
+.nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-simple{
+    padding: 8px 10px;
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-elegant{
+    padding: 6px 10px;
+    box-shadow: 0 0 0 1px RGBA(0,0,0,.5), 0 0 0 1px RGBA(255,255,255,.2) inset;
+}
+
+.nextend-bullet-text .nextend-bullet-text{
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: inline-block;
+    line-height: 14px !important;   
+    background: RGBA(0,0,0,0.6);
+    padding: 5px;
+}
+
+.nextend-bullet-text .nextend-bullet-text span{
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
+
+.nextend-bullet-text .nextend-bullet-text.active,
+.nextend-bullet-text .nextend-bullet-text:HOVER{
+    background: #7670C7;
+}
+
+.nextend-element .nextend-bullet span{
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    line-height: 13px;
+    padding: 3px;
+}
+
+
+.nextend-bullet-container .nextend-bullet-text-title{
+    margin-right: 10px;
+    margin-bottom: 3px;
+    padding: 3px 8px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+
+
+

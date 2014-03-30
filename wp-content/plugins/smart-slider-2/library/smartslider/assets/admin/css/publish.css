@@ -1,0 +1,22 @@
+.ni .smartslider-slider-publish p{
+    margin: 0;
+}
+
+.ni .smartslider-slider-publish-heading td,
+.ni .smartslider-slider-publish-heading td a{
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6C7581;
+}
+
+.ni .smartslider-slider-publish-note td{
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.ni .smartslider-slider-publish img{
+    max-width: 100%;
+}

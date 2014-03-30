@@ -1,0 +1,6 @@
+<root translate="smartslider">
+    <params name="joomla" label="Joomla_settings">
+        <param name="acl" type="joomlacomponentoptions" component="com_smartslider2" label="Component_options" default="" />
+        <param name="loadposition" type="onoff" label="Load_module_position" default="0" />
+    </params>
+</root>

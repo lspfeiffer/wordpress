@@ -1,0 +1,28 @@
+<root translate="smartslider">
+    <params name="imagetype" label="Youtube_item_settings">
+        <param name="youtubeurl" type="text" label="Youtube_url" />
+        <param name="defaultimage" type="list" label="Default_image" default="maxresdefault">
+            <option value="maxresdefault">Max res default</option>
+            <option value="default">Default</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </param>
+        <param name="autoplay" type="onoff" label="Autoplay" default="0"/>
+        <param name="theme" type="list" label="Theme" default="dark" translateable="1">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </param>
+        <param name="related" type="onoff" label="Show_related_videos" default="0" />
+        <param name="vq" type="list" label="Video_quality" default="default">
+            <option value="small">240p</option>
+            <option value="medium">360p</option>
+            <option value="large">480p</option>
+            <option value="hd720">720p</option>
+            <option value="hd1080">1080p</option>
+            <option value="highres">High res</option>
+            <option value="default">Default</option>
+        </param>
+    </params>
+</root>

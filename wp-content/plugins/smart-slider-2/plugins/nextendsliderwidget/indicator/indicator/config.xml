@@ -1,0 +1,5 @@
+<root>
+    <params name="widgetsindicator" label="" hidetitle="1">
+        <param label="Indicators with full version" type="trial" name="trial" src="http://www.nextendweb.com/demo/smartslider2/trial/indicator.png" />
+    </params>
+</root>

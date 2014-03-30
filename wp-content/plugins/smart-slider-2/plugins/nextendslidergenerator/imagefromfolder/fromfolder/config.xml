@@ -1,0 +1,5 @@
+<root>
+    <params name="imagefromfolder" label="Image_from_folder">
+        <param name="sourcefolder" label="Source_folder" type="folders" default="" folder="systemimages" />
+    </params>
+</root>

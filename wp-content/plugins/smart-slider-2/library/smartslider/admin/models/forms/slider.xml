@@ -1,0 +1,99 @@
+<root translate="smartslider">
+    <params name="slider" label="Slider_settings">
+        <param name="title" type="text" label="Name" default="Slider"/>
+        <param name="size" type="mixed" label="Slider_size" default="800|*|500|*|1" description="If_canvas_size_enabled_the_slide_size_will_be_exactly_the_numbers_you_specified_If_it_is_off_then_the_slider_size_will_be_these_dimensions">
+            <param type="text" label="Width" style="width:50px">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Height" style="width:50px">
+                <unit>px</unit>
+            </param>
+            <param type="onoff" label="Canvas_size"/>
+        </param>
+        <param name="responsive" type="mixed" label="Responsive_mode" default="0|*|0" description="Responsive_mode_starts_when_the_horizontal_area_is_biggerup_scale_or_smallerdown_scale_than_the_current_dimension_of_the_slider_It_scales_the_whole_slider_to_fill_up_the_available_space">
+            <param type="onoff" label="Down_scale"/>
+            <param type="onoff" label="Up_scale"/>
+        </param>
+        <param type="mixed" name="globalfontsize" label="Global_font_size" default="12|*|16|*|20" description="Font_sizes_are_defined_in_percentage_in_the_font_settings_to_make_the_slider_totally_responsive_This_value_will_be_the_100_and_texts_scales_to_this_font_size">
+            <param type="text" label="Desktop" style="width:40px">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Tablet" style="width:40px">
+                <unit>px</unit>
+            </param>
+            <param type="text" label="Mobile" style="width:40px">
+                <unit>px</unit>
+            </param>
+        </param>
+        <param type="mixed" name="margin" default="0|*|0|*|0|*|0|*|px" label="Margin" description="Place_around_the_slider_Can_be_used_to_align_the_slider_to_center_or_to_make_space_for_widgets">
+            <param type="text" style="width: 30px;" label="Top"/>
+            <param type="text" style="width: 30px;" label="Right"/>
+            <param type="text" style="width: 30px;" label="Bottom"/>
+            <param type="text" style="width: 30px;" label="Left"/>
+            <param type="switcher" label="ampnbsp">
+                <unit value="px">px</unit>
+                <unit value="%">percent</unit>
+            </param>
+        </param>
+        <param label="Slider types with full version" type="trial" name="trial" src="http://www.nextendweb.com/demo/smartslider2/trial/slidertype.png" />
+        <param name="type" translateable="1" type="slidertype" label="Type" default="simple" file="slider.xml"
+               description="Slider_type_defines_the_look_of_the_slider_Click_on_the_configure_button_for_more_options_for_the_selected_slider_type"/>
+        <param type="mixed" name="fadeonload" label="Fadein" default="1|*|0" description="After_the_images_loaded_on_the_slider_or_the_page_scrolled_to_the_slider_the_slider_fades_in">
+            <param type="onoff" label="on_load"/>
+            <param type="onoff" label="on_scroll"/>
+        </param>
+        <param type="onoff" name="playfirstlayer" label="Play_animation_on_first_load" default="0" description="On_first_load_If_enabled_the_layer_animations_will_play_on_the_first_slide" />
+        <param type="onoff" name="mainafterout" label="Play_out_animations" default="1" description="Defines_whether_to_play_the_layer_out_animations_or_not_If_switched_off_the_the_slider_reaction_for_events_next_previous_etc_are_far_better" />
+        <param type="onoff" name="inaftermain" label="Play_layer_in_after_main_animation_finished" default="1" description="If_switched_off_the_layer_in_animations_will_start_when_the_main_animation_starts_If_enabled_layer_in_animations_will_play_after_the_main_animation_finished" />
+        <param label="Controls" name="controls" type="mixed" default="0|*|0|*|0" description="Alternative_navigation_between_the_slides">
+            <param type="onoff" label="Mouse_scroll"/>
+            <param type="radio" label="Touch">
+                <option value="0">Disabled</option>
+                <option value="horizontal">Horizontal</option>
+                <option value="vertical">Vertical</option>
+            </param>
+            <param type="onoff" label="Keyboard"/>
+        </param>
+        <param type="onoff" name="blockrightclick" label="Block_right_click" default="0" description="" />
+    </params>
+    <params name="slides" label="Slides">
+        <param type="radio" name="backgroundresize" label="Resize slide backgrounds" default="cover" >
+            <option value="0">Disabled</option>
+            <option value="cover">Cover mode</option>
+            <option value="contain">Contain mode</option>
+        </param>
+        <param type="onoff" name="randomize" label="Randomize_slides" default="0" description="" />
+    </params>
+    <params name="autoplay" label="Autoplay_settings">
+        <param name="autoplay" type="mixed" label="Autoplay" default='0|*|5000' description="If_enabled_the_slides_will_automatically_change_after_the_defined_interval">
+            <param type="onoff" label="Enabled"/>
+            <param type="text" label="Interval" style="width:70px;">
+                <unit>ms</unit>
+            </param>
+        </param>
+        <param name="autoplayfinish" type="mixed" label="Finish_autoplay_on" default='0|*|loop|*|current' description="If_the_count_0_the_autoplay_repeat_forever">
+            <param type="text" style="width: 30px;" label="Count"/>
+            <param type="switcher" label="ampnbsp">
+                <unit value="loop">loops</unit>
+                <unit value="slide">slidess</unit>
+            </param>
+            <param type="switcher" label="ampnbsp">
+                <unit value="current">last_slide</unit>
+                <unit value="next">next_slide</unit>
+            </param>
+        </param>
+        <param name="stopautoplay" type="mixed" label="Stop_autoplay_on" default='1|*|1|*|1' description="Defines_when_to_stop_the_autoplay">
+            <param type="onoff" label="Click"/>
+            <param type="onoff" label="Mouse_enter"/>
+            <param type="onoff" label="Slide_playing"/>
+        </param>
+        <param name="resumeautoplay" type="mixed" label="Resume_autoplay_on" default='0|*|1|*|0' description="Defines_when_to_start_over_the_autoplay">
+            <param type="onoff" label="Mouse_leave"/>
+            <param type="onoff" label="Slide_played"/>
+            <param type="onoff" label="Slide_changed"/>
+        </param>
+    </params>
+    <params name="widgets" label="Widgets" type="raw">
+        <param name="widgets" type="pluginmatrix" label="" group="nextendsliderwidget"/>
+    </params>
+</root>
